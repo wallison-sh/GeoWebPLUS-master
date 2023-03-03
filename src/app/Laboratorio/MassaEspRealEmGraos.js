@@ -4,11 +4,10 @@ import  './MassaEspRealGraos.css';
 import '../imageensaio/lupa.jpg';
 
 
-
 function MassaEspRealEmGraos (){
 return <div>
    
-  
+
 
     <Navbar />
     <div className='titulolaboratorio' >
