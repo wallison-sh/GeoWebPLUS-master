@@ -1,0 +1,212 @@
+.ladoaladoecentral{
+    display:flex;
+    justify-content: center;    
+}
+.esquerda{
+    margin-left: 10px;
+}
+.esquerda2{
+    margin-left: 20px;
+}
+.esquerda3{
+    margin-left: 40px;
+}
+.centralizar{
+    align-items: center;
+}
+.ladoalado{
+    display:flex;
+    margin-top: 10px;
+}
+.div1{
+    display:row; 
+    margin-left:60px;
+    justify-content: center;}
+
+    .topo{
+        margin-top: 10px;
+    }
+    .topo2{
+        margin-top: 7px;
+    }
+
+    .ipamt{
+       padding: 5px;
+            margin-left: 10px;
+        }
+   
+    
+
+    .body1{
+        display:flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .body2{
+        display:row;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-left: 100px;
+        align-items: center;
+
+    }
+
+    .body3{
+        display:flex;
+        
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+ 
+ 
+    .inputestufa{
+        margin-left: 27px;
+    }
+    .inputbalanca{
+        margin-left: 13px;
+    }
+    .normaensaio{
+        margin-left: 10px;
+    }
+    .laboratorio{
+        margin-left: 60px;
+    }
+
+  
+
+    .btnloginbuscar{
+        size:5px;
+        margin-left: 12px;
+        background-color: green;
+        color: white;
+    }
+
+    .btnlogimprimir{
+        size:25px;
+        margin-left: 12px;
+        background-color: green;
+        color: white;
+       margin-top: 20;
+    }
+
+    .btnlogsalvar{
+        size:25px;
+        margin-left: 20px;
+        background-color: green;
+        color: white;
+        margin-top: 20;
+    }
+
+    .btnbuscar {
+        
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+
+    
+    .margem1{
+        margin-left:800px;
+    }
+    .margem2{
+        margin-left:700px;
+    }
+    .margem3{
+        margin-left:600px;
+    }
+    .margem4{
+        margin-left:500px;
+    }
+    .margem5{
+        margin-left:400px;
+    }
+    .margem6{
+        margin-left:300px;
+    }
+    .margem7{
+        margin-left:200px;
+    }
+    .margem8{
+        margin-left:100px;
+    }
+    .margem9{
+        margin-left:50px;
+    }
+    .margem10{
+        margin-left:1000px;
+    }
+    .margem11{
+        margin-left:150px;
+    }
+
+    .margem12{
+        margin-left:50px;
+    }
+
+    .iespmds{
+        margin-left:492px;
+    }
+    .iespcp{
+        margin-left:380px;
+    }
+    .itempt{
+        margin-left:230px;
+    }
+    .immm{
+        margin-left:87px;
+    }
+    .iccc{
+        margin-left:104px;
+    }
+    .iggg{
+        margin-left:352px;
+    }
+    .ikkk{
+        margin-left:95px;
+    }
+    .ippp{
+        margin-left:555px;
+    }
+
+    .iooo{
+        margin-left:547px;
+    }
+    .ijjj{
+        margin-left:437px;
+    }
+    .ihhh{
+        margin-left:88px;
+    }
+    .iddd{
+        margin-left:418px;
+    }
+    .ifff{
+        margin-left:635px;
+    }
+    .iuuu{
+        margin-left:118px;
+    }
+    .ittt{
+        margin-left:412px;
+    }
+    .ibbb{
+        margin-left:113px;
+    }
+    .isss{
+        margin-left:119px;
+    }
+    .iqqq{
+        margin-left: 865px;
+    }
+
+
+    .iobs{
+        padding: 60px;
+        
+    }
+
+    .divbtn{
+        margin-left:750px;
+        margin-top: 100px;
+    }
