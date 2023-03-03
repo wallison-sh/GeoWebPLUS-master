@@ -28,7 +28,7 @@ return <div>
       
     </div>
 
-<flexbox className='body1'>
+<body className='body1'>
 
 <div className='div1'>
 <div className='ladoalado'>
@@ -68,7 +68,7 @@ return <div>
     <input className='laboratorio'size="20"></input>   
 </div>
 </div>
-</flexbox>
+</body>
 
 <br/>
 
@@ -77,7 +77,7 @@ return <div>
 
 
 
-<flexbox className='body2'>
+<body className='body2'>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Corpo de prova</h5>
@@ -218,9 +218,9 @@ return <div>
     <h5 className='esquerda'>g/cm³</h5>
     <input className='margem12' size='101'></input>  
   </div>
-</flexbox>
+</body>
 
-<flexbox className='body3'>
+<body className='body3'>
 <div >
   <h5 className='esquerda'> Observações</h5>
   <input className='iobs' size='60'></input>
@@ -234,7 +234,7 @@ return <div>
         <img className='esquerda3' src="/Images/salvarverde.png" alt="" height='75px' />
       </a>
 </div>
-</flexbox>
+</body>
 
 
 <div>
