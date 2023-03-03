@@ -5,7 +5,7 @@ import '../imageensaio/lupa.jpg';
 
 
 function MassaEspRealEmGraos (){
-return <div>
+return <div className="tudo">
    
 
 

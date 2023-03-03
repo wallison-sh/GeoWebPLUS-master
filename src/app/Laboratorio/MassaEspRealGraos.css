@@ -1,5 +1,18 @@
-@media  (max-width:2400px ){
+@media all and (max-width:10000px ){
 
+
+
+.tudo{
+    width: 100%;
+    float: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    flex-direction: flex;
+    flex-flow: row wrap;
+
+  
+}
 
 .ladoaladoecentral{
     display:flex;
@@ -20,6 +33,15 @@
 .ladoalado{
     display:flex;
     margin-top: 10px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    flex-direction: flex;
+    flex-flow: row wrap;
+}
+
+.desc{
+    text-align: center;
+    margin-left: 10px;
 }
 .div1{
     display:row; 
@@ -45,6 +67,7 @@
         justify-content: space-evenly;
         margin-top: 20px;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .body2{
@@ -53,6 +76,7 @@
         margin-top: 50px;
         margin-left: 100px;
         align-items: center;
+        flex-wrap: wrap;
 
     }
 
@@ -61,6 +85,7 @@
         
         margin-top: 60px;
         margin-left: 100px;
+        flex-wrap: wrap;
     }
  
  
@@ -196,6 +221,7 @@
     }
     .ibbb{
         margin-left:113px;
+       
     }
     .isss{
         margin-left:119px;
