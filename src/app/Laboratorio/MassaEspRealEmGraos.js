@@ -84,45 +84,45 @@ return <div className="tudo">
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Corpo de prova</h5>
-    <h5 className='esquerda'>I</h5>
-    <h5 className='esquerda'>II</h5>
+    <h5 className='iqqq'>I</h5>
+    <h5 className='margem5'>II</h5>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Picnômetro</h5>
     <h5 className= 'margem3'>n°</h5>
-    <input name='ipicnometro1' id='ipicnometro1' className='isss' size='21' ></input>
-    <input id="ipicnometro2" className='margem8' size='21'></input>
+    <input name='ipicnometro1' id='ipicnometro1' className='isss' size='41' ></input>
+    <input id="ipicnometro2" className='margem8' size='41'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Massa úmida do corpo de prova</h5>
     <h5 className= 'ittt'> M¹  </h5>  
-    <input className='ibbb' size='21'></input>
-    <input className='margem8' size='21'></input>
+    <input className='ibbb' size='41'></input>
+    <input className='margem8' size='41'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Cápsula</h5>
     <h5 className='ifff'>n°</h5>
-    <input className='iuuu' size='5'></input>
-    <input className='esquerda' size='5'></input>
-    <input className='esquerda' size='5'></input>
-    <input className='margem8' size='5'></input>
-    <input className='esquerda' size='5'></input>
-    <input className='esquerda' size='5'></input>
+    <input className='iuuu' size='9'></input>
+    <input className='esquerda' size='9'></input>
+    <input className='esquerda' size='9'></input>
+    <input className='margem8' size='9'></input>
+    <input className='esquerda' size='9'></input>
+    <input className='esquerda' size='9'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Massa do solo úmido + cápsula</h5>
     <h5 className='iddd'>Mh</h5>
     <h5 className='esquerda'>g</h5>
-    <input className='immm' size='5'></input>
-    <input className='esquerda' size='5'></input>
-    <input className='esquerda' size='5'></input>
-    <input className='margem8' size='5'></input>
-    <input className='esquerda' size='5'></input>
-    <input className='esquerda' size='5'></input>
+    <input className='immm' size='9'></input>
+    <input className='esquerda' size='9'></input>
+    <input className='esquerda' size='9'></input>
+    <input className='margem8' size='9'></input>
+    <input className='esquerda' size='9'></input>
+    <input className='esquerda' size='9'></input>
   </div>
 
   <div className='ladoalado'>
