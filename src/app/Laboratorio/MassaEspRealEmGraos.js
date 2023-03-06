@@ -73,7 +73,7 @@ return <div className="tudo">
 
 <br/>
 
-<hr size='8' color='gray'/>
+<hr className='margem9' size='8' color='gray'  />
 
 
 
@@ -91,82 +91,82 @@ return <div className="tudo">
   <div className='ladoalado'>
     <h5 className='esquerda'>Picnômetro</h5>
     <h5 className= 'margem3'>n°</h5>
-    <input name='ipicnometro1' id='ipicnometro1' className='isss' size='41' ></input>
-    <input id="ipicnometro2" className='margem8' size='41'></input>
+    <input name='ipicnometro1' id='ipicnometro1' className='isss' size='29' ></input>
+    <input id="ipicnometro2" className='izzz' size='29'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Massa úmida do corpo de prova</h5>
     <h5 className= 'ittt'> M¹  </h5>  
-    <input className='ibbb' size='41'></input>
-    <input className='margem8' size='41'></input>
+    <input className='ibbb' size='29'></input>
+    <input className='izzz' size='29'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Cápsula</h5>
     <h5 className='ifff'>n°</h5>
-    <input className='iuuu' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='margem8' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
+    <input className='iuuu' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='izzz' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Massa do solo úmido + cápsula</h5>
     <h5 className='iddd'>Mh</h5>
     <h5 className='esquerda'>g</h5>
-    <input className='immm' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='margem8' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
+    <input className='immm' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='izzz' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Massa do solo seco + cápsula</h5>
     <h5 className='ijjj'>Ms</h5>
     <h5 className='esquerda'>g</h5>
-    <input className='ihhh' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='margem8' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
+    <input className='ihhh' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='izzz' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Massa da cápsula</h5>
     <h5 className='iooo'>Mc</h5>
     <h5 className='esquerda'>g</h5>
-    <input className='immm' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='margem8' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
+    <input className='immm' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='izzz' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Teor de umidade</h5>
     <h5 className='ippp'>h</h5>
     <h5 className='esquerda'>%</h5>
-    <input className='ikkk' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='margem8' size='9'></input>
-    <input className='esquerda' size='9'></input>
-    <input className='esquerda' size='9'></input>
+    <input className='ikkk' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='izzz' size='5'></input>
+    <input className='esquerda' size='5'></input>
+    <input className='esquerda' size='5'></input>
   </div>
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Teor de umidade médio</h5>
     <h5 className='iespmds'>h</h5>
     <h5 className='esquerda'>%</h5>
-    <input className='ikkk' size='41'></input>
-    <input className='margem8' size='41'></input>
+    <input className='ikkk' size='29'></input>
+    <input className='izzz' size='29'></input>
    
   </div>
 
@@ -174,8 +174,8 @@ return <div className="tudo">
     <h5 className='esquerda'>Massa do picnômetro + água destilada</h5>
     <h5 className='iggg'>M³</h5>
     <h5 className='esquerda'>g</h5>
-    <input className='immm' size='41'></input>
-    <input className='margem8' size='41'></input>
+    <input className='immm' size='29'></input>
+    <input className='izzz' size='29'></input>
   
   </div>
 
@@ -183,8 +183,8 @@ return <div className="tudo">
     <h5 className='esquerda'>Massa do picnômetro + corpo de prova  {"\n"} + água até o traço de referência</h5>
     <h5 className='margem12'>M²</h5>
     <h5 className='esquerda'>g</h5>
-    <input className='immm' size='41'></input>
-    <input className='margem8' size='41'></input>
+    <input className='immm' size='29'></input>
+    <input className='izzz' size='29'></input>
   
   </div>
 
@@ -192,8 +192,8 @@ return <div className="tudo">
     <h5 className='esquerda'>Temperatura do ensaio</h5>
     <h5 className='margem4'>T</h5>
     <h5 className='esquerda'>°</h5>
-    <input className='iccc' size='41'></input>
-    <input className='margem8' size='41'></input>
+    <input className='iccc' size='29'></input>
+    <input className='izzz' size='29'></input>
   
   </div>
 
@@ -201,8 +201,8 @@ return <div className="tudo">
     <h5 className='esquerda'>Massa específica da água a temperatura T do ensaio</h5>
     <h5 className='itempt'>dT</h5>
     <h5 className='esquerda'>g/cm³</h5>
-    <input className='margem12' size='41'></input>
-    <input className='margem8' size='41'></input>
+    <input className='margem12' size='29'></input>
+    <input className='izzz' size='29'></input>
     
   </div>
 
@@ -210,8 +210,8 @@ return <div className="tudo">
     <h5 className='esquerda'>Massa específica do corpo de prova</h5>
     <h5 className='iespcp'>dT</h5>
     <h5 className='esquerda'>g/cm³</h5>
-    <input className='margem12' size='41'></input>
-    <input className='margem8' size='41'></input>
+    <input className='margem12' size='29'></input>
+    <input className='izzz' size='29'></input>
    
   </div>
 
@@ -219,7 +219,7 @@ return <div className="tudo">
     <h5 className='esquerda'>Massa específica média</h5>
     <h5 className='iespmds'>dT</h5>
     <h5 className='esquerda'>g/cm³</h5>
-    <input className='margem12' size='101'></input>  
+    <input className='margem12' size='70'></input>  
   </div>
  
 </body>
