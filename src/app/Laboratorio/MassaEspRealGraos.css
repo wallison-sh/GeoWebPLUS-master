@@ -1,4 +1,4 @@
-@media  (min-width: 1900px) and (max-width: 2000px){
+@media  (min-width: 1900px) and (max-width: 2400px){
 .tudo{
     width: 90%;
     float: none;
@@ -243,6 +243,16 @@
         margin-top: 20px;
         display: flex;
     }
+
+    .irrr{
+        margin-left: 875px;
+    }
+    .ieee{
+        margin-left:437px;
+    }
+
+
+
 }
 
 
@@ -482,6 +492,13 @@
             margin-left:750px;
             margin-top: 20px;
             display: flex;
+        }
+
+        .irrr{
+            margin-left: 875px;
+        }
+        .ieee{
+            margin-left:437px;
         }
     }
 
@@ -725,6 +742,12 @@
                 align-items: center;
                 justify-self: center;
                 width: 100%;
+            }
+            .irrr{
+                margin-left: 875px;
+            }
+            .ieee{
+                margin-left:437px;
             }
         }
     

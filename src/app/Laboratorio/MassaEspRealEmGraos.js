@@ -84,8 +84,8 @@ return <div className="tudo">
 
   <div className='ladoalado'>
     <h5 className='esquerda'>Corpo de prova</h5>
-    <h5 className='iqqq'>I</h5>
-    <h5 className='margem5'>II</h5>
+    <h5 className='irrr'>I</h5>
+    <h5 className='ieee'>II</h5>
   </div>
 
   <div className='ladoalado'>
