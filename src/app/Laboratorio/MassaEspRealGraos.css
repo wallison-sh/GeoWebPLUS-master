@@ -4,7 +4,7 @@
     float: none;
     justify-content: center;
     flex-wrap: wrap;
-    flex: 1 1 auto;
+    
     flex-direction: flex;
     flex-flow: row wrap;
 
@@ -508,7 +508,7 @@
         }
     }
 
-    @media  (min-width: 1029px)and (max-width:1899px){
+    @media  (min-width: 1029px)and (max-width:1800px){
         .body2{
             display:row;       
             margin-left: 30px; 
