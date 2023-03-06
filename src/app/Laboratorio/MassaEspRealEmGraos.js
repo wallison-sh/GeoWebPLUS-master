@@ -8,7 +8,7 @@ function MassaEspRealEmGraos (){
 return <div className="tudo">
    
 
-
+   
     <Navbar />
     <div className='titulolaboratorio' >
       <h1 className='texttitulo'>Massa específica real em grãos</h1>
@@ -260,8 +260,8 @@ return <div className="tudo">
 
 
 
-
 </div>
+
 
 
 
