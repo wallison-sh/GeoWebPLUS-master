@@ -8,9 +8,7 @@ import '../imageensaio/lupa.jpg';
 
 function MassaEspRealEmGraos (){
 return <div className="tudo">
-   
-
-   
+     
     <Navbar />
     <div className='titulolaboratorio' >
       <h1 className='texttitulo'>Massa específica real em grãos</h1>
@@ -30,8 +28,6 @@ return <div className="tudo">
       </button>
       </div>
       </div>    
-    
-
 
 <body className='body1'>
 
@@ -47,12 +43,8 @@ return <div className="tudo">
 </select>
 </div>
 
-
-
 <div className='ladoalado'>
-    <h5 className='topo2'>Balança</h5>
-      
-
+    <h5 className='topo2'>Balança</h5>     
     <select name="select" className='inputbalanca' >
     <option value="LAB.001">LAB.001</option>
   <option value="LAB.002" selected>LAB.002</option>
@@ -60,7 +52,6 @@ return <div className="tudo">
 </select>
 </div>
 </div>
-
 
 <div className='div1'>
 <div className='ladoalado'>
@@ -80,12 +71,7 @@ return <div className="tudo">
 <hr className='margem9' size='8' color='gray'  />
 
 
-
-
 <body className='body2'>
-
-  
-
   <div className='ladoalado'>
     <h5 className='esquerda'>Corpo de prova</h5>
     <h5 className='irrr'>I</h5>
@@ -260,20 +246,15 @@ return <div className="tudo">
       </button>
 </div>
 </body>
-
-
 <div>
     <br/>
-
-    <br/>
-
     <br/>
     <br/>
     <br/>
     <br/>
     <br/>
     <br/>
-
+    <br/>
 </div>
 </div>
 
