@@ -1,0 +1,183 @@
+.tudo{
+    max-width: 100%;  
+    justify-content: center;
+    padding: 2%;      
+}
+
+.div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.div1{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.div2{
+    justify-content: center;
+    display: table-row;
+    align-items: center;
+    margin-top: 0.7%;
+}
+.div3{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.input1{
+    text-align: center;
+    width: 8%;
+    margin-left: 1%;
+    padding: 0.5%;
+}
+
+.input2{
+    text-align: center;
+    width: 98%;
+    margin-left: 12%;
+    padding: 0.5%;
+}
+.input3{
+    text-align: center;
+    width: 98%;
+    margin-left: 2%;
+    padding: 0.5%;
+}
+
+.input4{ 
+    text-align: center;
+    width: 30%;
+    margin-left: 2%;
+    padding: 0.5%;
+
+}
+.input5{ 
+    text-align: center;
+    width: 30%;
+    margin-left: 16.5%;
+    padding: 0.5%;
+
+}
+
+
+
+
+
+.input6{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 4.5%;
+    padding: 0.5%;
+}
+.input7{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 5%;
+    padding: 0.5%;
+}
+
+.input8{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 4.4%;
+    padding: 0.5%;
+}
+.input9{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 5%;
+    padding: 0.5%;
+}
+
+.input10{ 
+    text-align: center;
+    width: 5%;
+    margin-left: 4.5%;
+    padding: 0.5%;
+}
+.input11{ 
+    text-align: center;
+    width: 5%;
+    margin-left: 1%;
+    padding: 0.5%;
+}
+
+.input12{ 
+    text-align: center;
+    width: 5%;
+    margin-left: 2.6%;
+    padding: 0.5%;
+}
+.input13{ 
+    text-align: center;
+    width: 5%;
+    margin-left: 1%;
+    padding: 0.5%;
+}
+.input14{ 
+    text-align: center;
+    width: 5%;
+    margin-left: 2.6%;
+    padding: 0.5%;
+}
+.input15{ 
+    text-align: center;
+    width: 5%;
+    margin-left: 5%;
+    padding: 0.5%;
+}
+
+
+
+
+
+
+
+
+.button{
+    padding: 0.5%;
+    background-color: white;
+    margin-left: 1%;
+    border: 0px;
+}
+
+.button1{
+    width: 110%;   
+    padding: 0%;      
+}
+
+.espaco{
+    margin-left: 60%;
+}
+.espaco1{
+    margin-left: 20%;
+}
+.espaco3{
+    margin-left: 42.9%;
+}
+.espaco4{
+    margin-left: 29.5%;
+}
+.espaco5{
+    margin-left: 45.2%;
+}
+.espaco6{
+    margin-left: 0.5%;
+}
+.espaco7{
+    margin-left: 30%;
+}
+.espaco8{
+    margin-left: 31.4%;
+}
+.espaco9{
+    margin-left: 39%;
+}
+
+
+
+

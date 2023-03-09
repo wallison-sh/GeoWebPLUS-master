@@ -22,7 +22,7 @@ import Programacao from './app/Laboratorio/Progamacao/Programacao.jsx';
 import ProgramacaoIntacta from './app/Laboratorio/Progamacao/ProgamacaoIntacta/ProgramacaoIntacta'
 import ProgramacaoCompactacao from './app/Laboratorio//Progamacao/ProgamacaoCompactacao/ProgramacaoICompactacao';
 import PDFProgramacao from './app/Laboratorio/Progamacao/PDFProgramacao/PDFProgramacao.jsx';
-import MassaEspRealEmGraos from   './app/Laboratorio/MassaEspRealEmGraos.js';
+import MassaEspRealEmGraos from   './app/Laboratorio/Ensaios/MassaEspRealEmGraos.js'
 
 function App(){
     const {logado} = useContext(AuthContext);
