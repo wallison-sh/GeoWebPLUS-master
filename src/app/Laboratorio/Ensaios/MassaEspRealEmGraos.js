@@ -6,13 +6,13 @@ import  './MassaEspRealGraos.css';
 
 function MassaEspRealEmGraos (){
 return <body className='tudo' >
-<body className='tudo' >
+
      
     <Navbar />
     <div className='titulolaboratorio' >
       <h1 className='texttitulo'>Massa específica real em grãos</h1>     
       <br/>   
-      <br/>     
+      
     </div>
 
     
@@ -61,9 +61,9 @@ return <body className='tudo' >
    
     </div>
 
-<br/>
+
 <hr  size='8' color='gray'  />
-</body>
+
 
 
 
@@ -101,7 +101,7 @@ return <body className='tudo' >
   </div>
 
   <div className='div3'>
-    <h5 >Massa do solo úmido + cápsula</h5>
+    <h5  >Massa do solo úmido + cápsula</h5>
     <h5 className='espaco7'>Mh</h5>
     <h5 className='espaco6'>g</h5>
     <input name='massolumdEcap1' id='massolumdEcap1' className='input12' ></input>
