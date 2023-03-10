@@ -1,18 +1,23 @@
+
+@media  (min-width: 1500px)and (max-width:2328px){
 .tudo{
     max-width: 100%;  
     justify-content: center;
-    padding: 2%;      
+    padding: 2%;   
+    max-height: 100%;   
 }
 
 .div{
     justify-content: center;
     display: flex;
     align-items: center;
+    max-width: 100%; 
 }
 .div1{
     justify-content: space-evenly;
     display: flex;
     align-items: center;
+    max-width: 100%; 
 }
 
 .div2{
@@ -20,26 +25,32 @@
     display: table-row;
     align-items: center;
     margin-top: 0.7%;
+    max-width: 100%; 
 }
 .div3{
     
     display: flex;
     
     margin-top: 0.5%;
+    max-width: 100%; 
 }
 
 .div4{
     
     display: flex;
-    align-items: center;
-    margin-left: 11%;
+    align-items: center;    
+    max-width: 100%; 
+    justify-content: space-evenly;
+    margin-top: 3%;
 }
 
 .div5{
     
     display: flex;
-    margin-left: 55%;
+    margin-left: 25%;
     margin-top: 3%;
+    max-width: 100%; 
+    align-items: center;  
 }
 
 
@@ -48,6 +59,8 @@
     width: 8%;
     margin-left: 1%;
     padding: 0.5%;
+    box-sizing: border-box;
+    
 }
 
 .input2{
@@ -55,12 +68,14 @@
     width: 98%;
     margin-left: 12%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input3{
     text-align: center;
     width: 98%;
     margin-left: 2%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 
 .input4{ 
@@ -68,6 +83,7 @@
     width: 30%;
     margin-left: 2%;
     padding: 0.5%;
+    box-sizing: border-box;
 
 }
 .input5{ 
@@ -75,6 +91,7 @@
     width: 30%;
     margin-left: 16.5%;
     padding: 0.5%;
+    box-sizing: border-box;
 
 }
 
@@ -87,12 +104,14 @@
     width: 17%;
     margin-left: 8%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input7{ 
     text-align: center;
     width: 17%;
     margin-left: 5%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 
 .input8{ 
@@ -100,12 +119,14 @@
     width: 17%;
     margin-left: 7.9%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input9{ 
     text-align: center;
     width: 17%;
     margin-left: 5%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 
 .input10{ 
@@ -113,12 +134,14 @@
     width: 5%;
     margin-left: 8%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input11{ 
     text-align: center;
     width: 5%;
     margin-left: 1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 
 .input12{ 
@@ -126,75 +149,78 @@
     width: 5%;
     margin-left: 6.1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input13{ 
     text-align: center;
     width: 5%;
     margin-left: 1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input14{ 
     text-align: center;
     width: 5%;
     margin-left: 6.1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input15{ 
     text-align: center;
     width: 5%;
     margin-left: 5%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input16{ 
     text-align: center;
     width: 5%;
     margin-left: 6.1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input17{ 
     text-align: center;
     width: 17%;
     margin-left: 6%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input18{ 
     text-align: center;
     width: 17%;
     margin-left: 6.1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input19{ 
     text-align: center;
     width: 17%;
     margin-left: 3.1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input20{ 
     text-align: center;
     width: 39%;
     margin-left: 3.1%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 .input21{ 
     text-align: center;
     width: 17%;
     margin-left: 6.7%;
     padding: 0.5%;
+    box-sizing: border-box;
 }
 
 .input22{ 
     text-align: center;
-    width: 350%;
-    
+    width: 350%;    
     padding: 30%;
+    box-sizing: border-box;
 }
-
-
-
-
-
-
-
 
 
 .button{
@@ -226,6 +252,7 @@
     width: 380%;   
     padding: 30%;      
 }
+
 
 .espaco{
     margin-left: 57.7%;
@@ -285,6 +312,329 @@
     margin-left: 35.6%;
 }
 
+
+}
+
+
+
+
+
+
+
+
+
+@media  (min-width: 1000px)and (max-width:1300px){
+
+
+    .div{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        max-width: 100%; 
+    }
+    .div1{
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+        max-width: 100%; 
+        margin-left: 4%;
+    }
+    
+    .div2{
+        justify-content: center;
+        display: table-row;
+        align-items: center;
+        margin-top: 0.7%;
+        max-width: 100%; 
+    }
+    .div3{
+        
+        display: flex;
+        
+        margin-top: 0.5%;
+        max-width: 100%; 
+    }
+    
+    .div4{
+        
+        display: flex;
+        align-items: center;    
+        max-width: 100%; 
+        justify-content: space-evenly;
+        margin-top: 3%;
+        margin-left: -10%;
+    }
+    
+    .div5{
+        
+        display: flex;
+        margin-left: 25%;
+        margin-top: 3%;
+        max-width: 100%; 
+        align-items: center;  
+    }
+
+    .button{
+        padding: 0.5%;
+        background-color: white;
+        margin-left: 1%;
+        border: 0px;
+    }
+    
+    .button1{
+        width: 110%;   
+        padding: 0%;      
+    }
+    
+    .button2{
+        padding: 0.5%;
+        background-color: white;
+        margin-left: 10%;
+        border: 0px;
+    }
+    .button3{
+        padding: 2%;
+        background-color: white;
+        margin-left: 26%;
+        border: 0px;
+    }
+    
+    .button4{
+        width: 380%;   
+        padding: 30%;      
+    }
+
+    .input1{
+        text-align: center;
+        width: 8%;
+        margin-left: 1%;
+        padding: 0.5%;
+        box-sizing: border-box;
+        
+    }
+    
+    .input2{
+        text-align: center;
+        width: 98%;
+        margin-left: 12%;
+        padding: 0.5%;
+        box-sizing: border-box;
+    }
+    .input3{
+        text-align: center;
+        width: 98%;
+        margin-left: 2%;
+        padding: 0.5%;
+        box-sizing: border-box;
+    }
+    
+    .input4{ 
+        text-align: center;
+        width: 30%;
+        margin-left: 2%;
+        padding: 0.5%;
+        box-sizing: border-box;
+    
+    }
+    .input5{ 
+        text-align: center;
+        width: 30%;
+        margin-left: 16.5%;
+        padding: 0.5%;
+        box-sizing: border-box;
+    
+    }
+
+    
+
+
+    
+    .input6{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 8%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input7{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 2.9%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    
+    .input8{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 7.7%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input9{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 2.9%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    
+    .input10{ 
+        text-align: center;
+        width: 3.5%;
+        margin-left: 8%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input11{ 
+        text-align: center;
+        width: 3.5%;
+        margin-left: 0.7%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    
+    .input12{ 
+        text-align: center;
+        width: 3.5%;
+        margin-left: 6.0%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input13{ 
+        text-align: center;
+        width: 3.5%;
+        margin-left: 0.7%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input14{ 
+        text-align: center;
+        width: 3.5%;
+        margin-left: 6.1%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input15{ 
+        text-align: center;
+        width: 3.5%;
+        margin-left: 3%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input16{ 
+        text-align: center;
+        width: 3.5%;
+        margin-left: 6.1%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input17{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 6%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input18{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 6.1%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input19{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 2.9%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input20{ 
+        text-align: center;
+        width: 26.9%;
+        margin-left: 3%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    .input21{ 
+        text-align: center;
+        width: 12%;
+        margin-left: 6.5%;
+        padding: 0.2%;
+        box-sizing: border-box;
+    }
+    
+    .input22{ 
+        text-align: center;
+        width: 180%;    
+        padding: 25%;
+        box-sizing: border-box;
+        height: 60%;
+    }
+
+
+    .espaco{
+        margin-left: 59%;
+    }
+    .espaco1{
+        margin-left: 13.8%;
+    }
+    .espaco3{
+        margin-left: 46%;
+    }
+    .espaco4{
+        margin-left: 30.5%;
+    }
+    .espaco5{
+        margin-left: 48.8%;
+    }
+    .espaco6{
+        margin-left: 0.5%;
+    }
+    .espaco7{
+        margin-left: 30.9%;
+    }
+    .espaco8{
+        margin-left: 32.5%;
+    }
+    .espaco9{
+        margin-left: 41.4%;
+    }
+    .espaco10{
+        margin-left: 42.3%;
+    }
+    .espaco11{
+        margin-left: 1%;
+    }
+    .espaco12{
+        margin-left: 37.2%;
+    }
+    .espaco13{
+        margin-left: 25.9%;
+    }
+    .espaco14{
+        margin-left: 0.2%;
+    }
+    .espaco15{
+        margin-left: 1.3%;
+    }
+    .espaco16{
+        margin-left: 38.1%;
+    }
+    .espaco17{
+        margin-left: 16.1%;
+    }
+    .espaco18{
+        margin-left: 28.2%;
+    }
+    .espaco19{
+        margin-left: 37.2%;
+    }
+
+
+
+}
 
 
 
