@@ -642,7 +642,7 @@
 
 }
 
-@media  (min-width: 800px)and (max-width:1030px){
+@media  (min-width: 100px)and (max-width:985px){
 
     .tudo{
         max-width: 100%;  
