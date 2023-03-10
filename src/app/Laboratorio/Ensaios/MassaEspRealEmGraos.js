@@ -6,6 +6,7 @@ import  './MassaEspRealGraos.css';
 
 function MassaEspRealEmGraos (){
 return <body className='tudo' >
+<body className='tudo' >
      
     <Navbar />
     <div className='titulolaboratorio' >
@@ -62,12 +63,12 @@ return <body className='tudo' >
 
 <br/>
 <hr  size='8' color='gray'  />
+</body>
+
+
 
 <div className='div1'>
-
 <div className='div2'>
-
-
 <div className='div3'>
     <h5 >Corpo de prova</h5>
     <h5 className='espaco' >I</h5>
@@ -140,75 +141,75 @@ return <body className='tudo' >
 
 <div className='div3'>
     <h5 >Teor de umidade</h5>
-    <h5 className='espaco5'>h</h5>
-    <h5 className='espaco6'>%</h5>
-    <input name='teorumd1' id='teorumd1' className='ikkk' size='5'></input>
-    <input name='teorumd2' id='teorumd2' className='esquerda' size='5'></input>
-    <input name='teorumd3' id='teorumd3' onBlur={TeorUmidadeMdCalc1} className='esquerda' size='5'></input>
-    <input name='teorumd4' id='teorumd4' className='izzz' size='5'></input>
-    <input name='teorumd5' id='teorumd5' className='esquerda' size='5'></input>
-    <input name='teorumd6' id='teorumd6' onBlur={TeorUmidadeMdCalc2}  className='esquerda' size='5'></input>
+    <h5 className='espaco10'>h</h5>
+    <h5 className='espaco11'>%</h5>
+    <input name='teorumd1' id='teorumd1' className='input16'></input>
+    <input name='teorumd2' id='teorumd2' className='input13'></input>
+    <input name='teorumd3' id='teorumd3' onBlur={TeorUmidadeMdCalc1} className='input13'></input>
+    <input name='teorumd4' id='teorumd4' className='input15'></input>
+    <input name='teorumd5' id='teorumd5' className='input13'></input>
+    <input name='teorumd6' id='teorumd6' onBlur={TeorUmidadeMdCalc2}  className='input13'></input>
   </div>
 
   <div className='div3'>
     <h5 >Teor de umidade médio</h5>
-    <h5 className='espaco5'>h</h5>
-    <h5 className='espaco6'>%</h5>
-    <input name='teorumdMd1' id='teorumdMd1' className='input1' ></input>
-    <input name='teorumdMd2' id='teorumdMd2' className='input1'></input>
+    <h5 className='espaco12'>h</h5>
+    <h5 className='espaco11'>%</h5>
+    <input name='teorumdMd1' id='teorumdMd1' className='input17' ></input>
+    <input name='teorumdMd2' id='teorumdMd2' className='input9'></input>
    </div>
  
 
    <div className='div3'>
     <h5 >Massa do picnômetro + água destilada</h5>
-    <h5 className='espaco5'>M³</h5>
-    <h5 className='espaco6'>g</h5>
-    <input name='masspicaguadt1' id='masspicaguadt1' className='input1'></input>
-    <input name='masspicaguadt2' id='masspicaguadt2' className='input1'></input>
+    <h5 className='espaco13'>M³</h5>
+    <h5 className='espaco14'>g</h5>
+    <input name='masspicaguadt1' id='masspicaguadt1' className='input18'></input>
+    <input name='masspicaguadt2' id='masspicaguadt2' className='input9'></input>
   </div>
   
 
   <div className='div3'>
     <h5 >Massa do picnômetro + corpo de prova  {"\n"} + água até o traço de referência</h5>
-    <h5 className='espaco5'>M²</h5>
-    <h5 className='espaco6'>g</h5>
-    <input name='masspicCP1' id='masspicCP1' className='input1'></input>
-    <input name='masspicCP2' id='masspicCP2' className='input1'></input>
+    <h5 className='espaco15'>M²</h5>
+    <h5 className='espaco14'>g</h5>
+    <input name='masspicCP1' id='masspicCP1' className='input18'></input>
+    <input name='masspicCP2' id='masspicCP2' className='input9'></input>
   </div>
   
 
   <div className='div3'>
     <h5 >Temperatura do ensaio</h5>
-    <h5 className='espaco5'>T</h5>
-    <h5 className='espaco6'>°</h5>
-    <input name='TempEnsaio1' id='TempEnsaio1' className='input1'></input>
-    <input name='TempEnsaio2' id='TempEnsaio2' className='input1'></input>
+    <h5 className='espaco16'>T</h5>
+    <h5 className='espaco11'>°</h5>
+    <input name='TempEnsaio1' id='TempEnsaio1' className='input21'></input>
+    <input name='TempEnsaio2' id='TempEnsaio2' className='input9'></input>
   </div>
   
 
   <div className='div3'>
     <h5 >Massa específica da água a temperatura T do ensaio</h5>
-    <h5 className='espaco5'>dT</h5>
-    <h5 className='espaco6'>g/cm³</h5>
-    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input1' ></input>
-    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input1'></input>
+    <h5 className='espaco17'>dT</h5>
+    <h5 className='espaco14'>g/cm³</h5>
+    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' ></input>
+    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9'></input>
     </div>
   
 
     <div className='div3'>
     <h5  >Massa específica do corpo de prova</h5>
-    <h5 className='espaco5'>dT</h5>
-    <h5 className='espaco6'>g/cm³</h5>
-    <input name='massaespcppv1' id='massaespcppv1' className='input1' ></input>
-    <input name='massaespcppv2' id='massaespcppv2' className='input1' ></input>
+    <h5 className='espaco18'>dT</h5>
+    <h5 className='espaco14'>g/cm³</h5>
+    <input name='massaespcppv1' id='massaespcppv1' className='input19' ></input>
+    <input name='massaespcppv2' id='massaespcppv2' className='input9' ></input>
    </div>
  
 
    <div className='div3'>
     <h5 >Massa específica média</h5>
-    <h5 className='espaco5'>dT</h5>
-    <h5 className='espaco6'>g/cm³</h5>
-    <input name='massaespMd' id='massaespMd' className='input1'></input>  
+    <h5 className='espaco19'>dT</h5>
+    <h5 className='espaco14'>g/cm³</h5>
+    <input name='massaespMd' id='massaespMd' className='input20'></input>  
  </div>
  
 
@@ -217,19 +218,25 @@ return <body className='tudo' >
  </div>
  </div>
 
+<div className='div4'>
+
+<div className='div2'>
   <h5 > Observações</h5>
-  <input name='obs' id='obs' ></input>
+  <input className='input22' name='obs' id='obs' ></input>
+  </div>
 
-
-
-<button  type='submit'  >
-        <img  src="/Images/imprimir.png" alt="" height='100px' />
+<div className='div5'>
+<button  type='submit' className='button2' >
+        <img  src="/Images/imprimir.png" alt="" height='100px' className='button4' />
       </button>
-      <button  type='submit'  >
-        <img  src="/Images/salvarverde.png" alt="" height='75px' />
+      <button  type='submit' className='button3' >
+        <img  src="/Images/document.png" alt="" height='75px' className='button4' />
       </button>
-
-
+      <button  type='submit' className='button3' >
+        <img  src="/Images/salvarverde.png" alt="" height='75px' className='button4' />
+      </button>
+      </div> 
+      </div>   
 
     <br/>
     <br/>

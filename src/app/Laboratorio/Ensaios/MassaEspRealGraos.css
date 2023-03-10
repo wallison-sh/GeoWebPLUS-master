@@ -24,9 +24,24 @@
 .div3{
     
     display: flex;
-    align-items: center;
-    margin-top: 1%;
+    
+    margin-top: 0.5%;
 }
+
+.div4{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 11%;
+}
+
+.div5{
+    
+    display: flex;
+    margin-left: 55%;
+    margin-top: 3%;
+}
+
 
 .input1{
     text-align: center;
@@ -70,7 +85,7 @@
 .input6{ 
     text-align: center;
     width: 17%;
-    margin-left: 4.5%;
+    margin-left: 8%;
     padding: 0.5%;
 }
 .input7{ 
@@ -83,7 +98,7 @@
 .input8{ 
     text-align: center;
     width: 17%;
-    margin-left: 4.4%;
+    margin-left: 7.9%;
     padding: 0.5%;
 }
 .input9{ 
@@ -96,7 +111,7 @@
 .input10{ 
     text-align: center;
     width: 5%;
-    margin-left: 4.5%;
+    margin-left: 8%;
     padding: 0.5%;
 }
 .input11{ 
@@ -109,7 +124,7 @@
 .input12{ 
     text-align: center;
     width: 5%;
-    margin-left: 2.6%;
+    margin-left: 6.1%;
     padding: 0.5%;
 }
 .input13{ 
@@ -121,7 +136,7 @@
 .input14{ 
     text-align: center;
     width: 5%;
-    margin-left: 2.6%;
+    margin-left: 6.1%;
     padding: 0.5%;
 }
 .input15{ 
@@ -130,6 +145,50 @@
     margin-left: 5%;
     padding: 0.5%;
 }
+.input16{ 
+    text-align: center;
+    width: 5%;
+    margin-left: 6.1%;
+    padding: 0.5%;
+}
+.input17{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 6%;
+    padding: 0.5%;
+}
+.input18{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 6.1%;
+    padding: 0.5%;
+}
+.input19{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 3.1%;
+    padding: 0.5%;
+}
+.input20{ 
+    text-align: center;
+    width: 39%;
+    margin-left: 3.1%;
+    padding: 0.5%;
+}
+.input21{ 
+    text-align: center;
+    width: 17%;
+    margin-left: 6.7%;
+    padding: 0.5%;
+}
+
+.input22{ 
+    text-align: center;
+    width: 350%;
+    
+    padding: 30%;
+}
+
 
 
 
@@ -150,11 +209,29 @@
     padding: 0%;      
 }
 
+.button2{
+    padding: 0.5%;
+    background-color: white;
+    margin-left: 10%;
+    border: 0px;
+}
+.button3{
+    padding: 2%;
+    background-color: white;
+    margin-left: 26%;
+    border: 0px;
+}
+
+.button4{
+    width: 380%;   
+    padding: 30%;      
+}
+
 .espaco{
-    margin-left: 60%;
+    margin-left: 57.7%;
 }
 .espaco1{
-    margin-left: 20%;
+    margin-left: 21.5%;
 }
 .espaco3{
     margin-left: 42.9%;
@@ -177,6 +254,37 @@
 .espaco9{
     margin-left: 39%;
 }
+.espaco10{
+    margin-left: 39.7%;
+}
+.espaco11{
+    margin-left: 1%;
+}
+.espaco12{
+    margin-left: 35.4%;
+}
+.espaco13{
+    margin-left: 25.6%;
+}
+.espaco14{
+    margin-left: 0.4%;
+}
+.espaco15{
+    margin-left: 4.6%;
+}
+.espaco16{
+    margin-left: 35.9%;
+}
+.espaco17{
+    margin-left: 17.5%;
+}
+.espaco18{
+    margin-left: 27.9%;
+}
+.espaco19{
+    margin-left: 35.6%;
+}
+
 
 
 
