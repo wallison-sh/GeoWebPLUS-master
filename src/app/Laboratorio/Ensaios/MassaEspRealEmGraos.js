@@ -2,7 +2,140 @@ import React from 'react';
 import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
 
+function TeorUmidadeCalc1 (){
 
+  var v1 = document.querySelector("#massolumdEcap1");
+  var v2 = document.querySelector("#massolsecoEcap1");
+  var v3 = document.querySelector("#masscap1");
+  var v4 = document.querySelector("#teorumd1");
+  var v11 =  v1.value;
+  var v22 = v2.value;
+  var v33 =  v3.value;
+  var resul1 = (parseInt(v11) - parseInt(v22)) ;
+  var resul2 = (parseInt(v22) - parseInt(v33)) ;
+  var resul = (parseInt(resul1)/parseInt(resul2))*100
+  
+  v4.value = resul;
+  console.log(resul);
+  }
+
+  function TeorUmidadeCalc2 (){
+
+    var v1 = document.querySelector("#massolumdEcap2");
+    var v2 = document.querySelector("#massolsecoEcap2");
+    var v3 = document.querySelector("#masscap2");
+    var v4 = document.querySelector("#teorumd2");
+    var v11 =  v1.value;
+    var v22 = v2.value;
+    var v33 =  v3.value;
+    var resul1 = (parseInt(v11) - parseInt(v22)) ;
+    var resul2 = (parseInt(v22) - parseInt(v33)) ;
+    var resul = (parseInt(resul1)/parseInt(resul2))*100
+    
+    v4.value = resul;
+    console.log(resul);
+    }
+
+    function TeorUmidadeCalc3 (){
+
+      var v1 = document.querySelector("#massolumdEcap3");
+      var v2 = document.querySelector("#massolsecoEcap3");
+      var v3 = document.querySelector("#masscap3");
+      var v4 = document.querySelector("#teorumd3");
+      var v11 =  v1.value;
+      var v22 = v2.value;
+      var v33 =  v3.value;
+      var resul1 = (parseInt(v11) - parseInt(v22)) ;
+      var resul2 = (parseInt(v22) - parseInt(v33)) ;
+      var resul = (parseInt(resul1)/parseInt(resul2))*100
+      
+      v4.value = resul;
+      console.log(resul);
+      }
+      function TeorUmidadeCalc4(){
+
+        var v1 = document.querySelector("#massolumdEcap4");
+        var v2 = document.querySelector("#massolsecoEcap4");
+        var v3 = document.querySelector("#masscap4");
+        var v4 = document.querySelector("#teorumd4");
+        var v11 =  v1.value;
+        var v22 = v2.value;
+        var v33 =  v3.value;
+        var resul1 = (parseInt(v11) - parseInt(v22)) ;
+        var resul2 = (parseInt(v22) - parseInt(v33)) ;
+        var resul = (parseInt(resul1)/parseInt(resul2))*100
+        
+        v4.value = resul;
+        console.log(resul);
+        }
+        function TeorUmidadeCalc5 (){
+
+          var v1 = document.querySelector("#massolumdEcap5");
+          var v2 = document.querySelector("#massolsecoEcap5");
+          var v3 = document.querySelector("#masscap5");
+          var v4 = document.querySelector("#teorumd5");
+          var v11 =  v1.value;
+          var v22 = v2.value;
+          var v33 =  v3.value;
+          var resul1 = (parseInt(v11) - parseInt(v22)) ;
+          var resul2 = (parseInt(v22) - parseInt(v33)) ;
+          var resul = (parseInt(resul1)/parseInt(resul2))*100
+          
+          v4.value = resul;
+          console.log(resul);
+          }
+          function TeorUmidadeCalc6 (){
+
+            var v1 = document.querySelector("#massolumdEcap6");
+            var v2 = document.querySelector("#massolsecoEcap6");
+            var v3 = document.querySelector("#masscap6");
+            var v4 = document.querySelector("#teorumd6");
+            var v11 =  v1.value;
+            var v22 = v2.value;
+            var v33 =  v3.value;
+            var resul1 = (parseInt(v11) - parseInt(v22)) ;
+            var resul2 = (parseInt(v22) - parseInt(v33)) ;
+            var resul = (parseInt(resul1)/parseInt(resul2))*100
+            
+            v4.value = resul;
+            console.log(resul);
+            }
+
+            function TeorUmidadeMdCalc1 (){
+
+              var v1 = document.querySelector("#teorumd1");
+              var v2 = document.querySelector("#teorumd2");
+              var v3 = document.querySelector("#teorumd3");
+              var v4 = document.querySelector("#teorumdMd1");
+
+              var v11 =  v1.value;
+              var v22 = v2.value;
+              var v33 =  v3.value;
+
+             
+              var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
+              
+              v4.value = resul;
+              console.log(resul);
+              }
+
+              function TeorUmidadeMdCalc2 (){
+
+                var v1 = document.querySelector("#teorumd4");
+                var v2 = document.querySelector("#teorumd5");
+                var v3 = document.querySelector("#teorumd6");
+                var v4 = document.querySelector("#teorumdMd2");
+  
+                var v11 =  v1.value;
+                var v22 = v2.value;
+                var v33 =  v3.value;
+  
+               
+                var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
+                
+                v4.value = resul;
+                console.log(resul);
+                }
 
 function MassaEspRealEmGraos (){
 return <body className='tudo' >
@@ -256,140 +389,7 @@ return <body className='tudo' >
 
 }
 
-function TeorUmidadeCalc1 (){
 
-  var v1 = document.querySelector("#massolumdEcap1");
-  var v2 = document.querySelector("#massolsecoEcap1");
-  var v3 = document.querySelector("#masscap1");
-  var v4 = document.querySelector("#teorumd1");
-  var v11 =  v1.value;
-  var v22 = v2.value;
-  var v33 =  v3.value;
-  var resul1 = (parseInt(v11) - parseInt(v22)) ;
-  var resul2 = (parseInt(v22) - parseInt(v33)) ;
-  var resul = (parseInt(resul1)/parseInt(resul2))*100
-  
-  v4.value = resul;
-  console.log(resul);
-  }
-
-  function TeorUmidadeCalc2 (){
-
-    var v1 = document.querySelector("#massolumdEcap2");
-    var v2 = document.querySelector("#massolsecoEcap2");
-    var v3 = document.querySelector("#masscap2");
-    var v4 = document.querySelector("#teorumd2");
-    var v11 =  v1.value;
-    var v22 = v2.value;
-    var v33 =  v3.value;
-    var resul1 = (parseInt(v11) - parseInt(v22)) ;
-    var resul2 = (parseInt(v22) - parseInt(v33)) ;
-    var resul = (parseInt(resul1)/parseInt(resul2))*100
-    
-    v4.value = resul;
-    console.log(resul);
-    }
-
-    function TeorUmidadeCalc3 (){
-
-      var v1 = document.querySelector("#massolumdEcap3");
-      var v2 = document.querySelector("#massolsecoEcap3");
-      var v3 = document.querySelector("#masscap3");
-      var v4 = document.querySelector("#teorumd3");
-      var v11 =  v1.value;
-      var v22 = v2.value;
-      var v33 =  v3.value;
-      var resul1 = (parseInt(v11) - parseInt(v22)) ;
-      var resul2 = (parseInt(v22) - parseInt(v33)) ;
-      var resul = (parseInt(resul1)/parseInt(resul2))*100
-      
-      v4.value = resul;
-      console.log(resul);
-      }
-      function TeorUmidadeCalc4(){
-
-        var v1 = document.querySelector("#massolumdEcap4");
-        var v2 = document.querySelector("#massolsecoEcap4");
-        var v3 = document.querySelector("#masscap4");
-        var v4 = document.querySelector("#teorumd4");
-        var v11 =  v1.value;
-        var v22 = v2.value;
-        var v33 =  v3.value;
-        var resul1 = (parseInt(v11) - parseInt(v22)) ;
-        var resul2 = (parseInt(v22) - parseInt(v33)) ;
-        var resul = (parseInt(resul1)/parseInt(resul2))*100
-        
-        v4.value = resul;
-        console.log(resul);
-        }
-        function TeorUmidadeCalc5 (){
-
-          var v1 = document.querySelector("#massolumdEcap5");
-          var v2 = document.querySelector("#massolsecoEcap5");
-          var v3 = document.querySelector("#masscap5");
-          var v4 = document.querySelector("#teorumd5");
-          var v11 =  v1.value;
-          var v22 = v2.value;
-          var v33 =  v3.value;
-          var resul1 = (parseInt(v11) - parseInt(v22)) ;
-          var resul2 = (parseInt(v22) - parseInt(v33)) ;
-          var resul = (parseInt(resul1)/parseInt(resul2))*100
-          
-          v4.value = resul;
-          console.log(resul);
-          }
-          function TeorUmidadeCalc6 (){
-
-            var v1 = document.querySelector("#massolumdEcap6");
-            var v2 = document.querySelector("#massolsecoEcap6");
-            var v3 = document.querySelector("#masscap6");
-            var v4 = document.querySelector("#teorumd6");
-            var v11 =  v1.value;
-            var v22 = v2.value;
-            var v33 =  v3.value;
-            var resul1 = (parseInt(v11) - parseInt(v22)) ;
-            var resul2 = (parseInt(v22) - parseInt(v33)) ;
-            var resul = (parseInt(resul1)/parseInt(resul2))*100
-            
-            v4.value = resul;
-            console.log(resul);
-            }
-
-            function TeorUmidadeMdCalc1 (){
-
-              var v1 = document.querySelector("#teorumd1");
-              var v2 = document.querySelector("#teorumd2");
-              var v3 = document.querySelector("#teorumd3");
-              var v4 = document.querySelector("#teorumdMd1");
-
-              var v11 =  v1.value;
-              var v22 = v2.value;
-              var v33 =  v3.value;
-
-             
-              var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
-              
-              v4.value = resul;
-              console.log(resul);
-              }
-
-              function TeorUmidadeMdCalc2 (){
-
-                var v1 = document.querySelector("#teorumd4");
-                var v2 = document.querySelector("#teorumd5");
-                var v3 = document.querySelector("#teorumd6");
-                var v4 = document.querySelector("#teorumdMd2");
-  
-                var v11 =  v1.value;
-                var v22 = v2.value;
-                var v33 =  v3.value;
-  
-               
-                var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
-                
-                v4.value = resul;
-                console.log(resul);
-                }
 
 
             
