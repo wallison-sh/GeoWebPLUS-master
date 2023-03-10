@@ -5,6 +5,9 @@
     justify-content: center;
     padding: 2%;   
     max-height: 100%;   
+    align-content: center;
+    max-inline-size: 100%;
+    writing-mode: horizontal-tb; 
 }
 
 .div{
@@ -313,6 +316,7 @@
 }
 
 
+
 }
 
 
@@ -323,7 +327,9 @@
 
 
 
-@media  (min-width: 1000px)and (max-width:1300px){
+@media  (min-width: 1275px)and (max-width:1289px){
+
+ 
 
 
     .div{
