@@ -36,6 +36,8 @@
     
     margin-top: 0.5%;
     max-width: 100%; 
+    max-inline-size: 100%;
+    writing-mode: horizontal-tb; 
 }
 
 .div4{
