@@ -15,7 +15,7 @@ function TeorUmidadeCalc1 (){
   var resul2 = (parseInt(v22) - parseInt(v33)) ;
   var resul = (parseInt(resul1)/parseInt(resul2))*100
   
-  v4.value = resul;
+  v4.value = resul.toFixed(2);
   console.log(resul);
   }
 
@@ -32,7 +32,7 @@ function TeorUmidadeCalc1 (){
     var resul2 = (parseInt(v22) - parseInt(v33)) ;
     var resul = (parseInt(resul1)/parseInt(resul2))*100
     
-    v4.value = resul;
+    v4.value = resul.toFixed(2);
     console.log(resul);
     }
 
@@ -49,7 +49,7 @@ function TeorUmidadeCalc1 (){
       var resul2 = (parseInt(v22) - parseInt(v33)) ;
       var resul = (parseInt(resul1)/parseInt(resul2))*100
       
-      v4.value = resul;
+      v4.value = resul.toFixed(2);
       console.log(resul);
       }
       function TeorUmidadeCalc4(){
@@ -65,7 +65,7 @@ function TeorUmidadeCalc1 (){
         var resul2 = (parseInt(v22) - parseInt(v33)) ;
         var resul = (parseInt(resul1)/parseInt(resul2))*100
         
-        v4.value = resul;
+        v4.value = resul.toFixed(2);
         console.log(resul);
         }
         function TeorUmidadeCalc5 (){
@@ -81,7 +81,7 @@ function TeorUmidadeCalc1 (){
           var resul2 = (parseInt(v22) - parseInt(v33)) ;
           var resul = (parseInt(resul1)/parseInt(resul2))*100
           
-          v4.value = resul;
+          v4.value = resul.toFixed(2);
           console.log(resul);
           }
           function TeorUmidadeCalc6 (){
@@ -97,7 +97,7 @@ function TeorUmidadeCalc1 (){
             var resul2 = (parseInt(v22) - parseInt(v33)) ;
             var resul = (parseInt(resul1)/parseInt(resul2))*100
             
-            v4.value = resul;
+            v4.value = resul.toFixed(2);
             console.log(resul);
             }
 
@@ -115,7 +115,7 @@ function TeorUmidadeCalc1 (){
              
               var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
               
-              v4.value = resul;
+              v4.value = resul.toFixed(2);
               console.log(resul);
               }
 
@@ -133,9 +133,86 @@ function TeorUmidadeCalc1 (){
                
                 var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
                 
-                v4.value = resul;
+                v4.value = resul.toFixed(2);
                 console.log(resul);
                 }
+
+
+ function MassaEspCPCalc1 (){
+
+var aa36 = document.querySelector("#massumdcp1");
+var aa66 = document.querySelector("#teorumdMd1");
+var aa71 = document.querySelector("#masspicaguadt1");
+var aa76 = document.querySelector("#masspicCP1");
+var aa86 = document.querySelector("#MassEspAgaTempT1");
+
+var aa91 = document.querySelector("#massaespcppv1");
+
+var a1 = aa36.value;
+var a2 = aa66.value;
+var a3 = aa71.value;
+var a4 = aa76.value;
+var a5 = aa86.value;
+
+var resul = (( parseFloat(a1)  * 100 / ( 100 + parseFloat(a2) )) / (( parseFloat(a1) * 100 / ( 100 + parseFloat(a2))) + parseFloat(a3) - parseFloat(a4) )) * parseFloat(a5)
+
+
+aa91.value = resul.toFixed(2);
+console.log(resul);
+
+ }
+
+ function MassaEspCPCalc2 () {
+
+  var aa36 = document.querySelector("#massumdcp2");
+  var aa66 = document.querySelector("#teorumdMd2");
+  var aa71 = document.querySelector("#masspicaguadt2");
+  var aa76 = document.querySelector("#masspicCP2");
+  var aa86 = document.querySelector("#MassEspAgaTempT2");
+
+  var aa91 = document.querySelector("#massaespcppv2");
+
+
+  
+  var a1 = aa36.value;
+  var a2 = aa66.value;
+  var a3 = aa71.value;
+  var a4 = aa76.value;
+  var a5 = aa86.value;
+  
+  var resul = (( parseFloat(a1)  * 100 / ( 100 + parseFloat(a2) )) / (( parseFloat(a1) * 100 / ( 100 + parseFloat(a2))) + parseFloat(a3) - parseFloat(a4) )) * parseFloat(a5)
+
+  aa91.value = resul.toFixed(2);
+  console.log(resul);
+  
+   }
+
+
+
+
+   function MassaEspMDCalc () {
+
+    var aa91 = document.querySelector("#massaespcppv1");
+    var aa92 = document.querySelector("#massaespcppv2");
+    var aaa = document.querySelector("#massaespMd");
+
+    var a1 = aa91.value;
+    var a2 = aa92.value; 
+
+    var resul1 = (parseInt(a1) + parseInt(a2)) 
+    var resul = parseInt(resul1) /2 
+
+    aaa.value = resul.toFixed(2);
+
+
+    
+    console.log(resul);
+   }
+
+ 
+
+
+
 
 function MassaEspRealEmGraos (){
 return <body className='tudo' >
@@ -218,7 +295,7 @@ return <body className='tudo' >
  <div className='div3'>
     <h5 >Massa úmida do corpo de prova</h5>
     <h5 className='espaco4' > M¹  </h5>  
-    <input name='massumdcp1' id='massespumd1' className='input8' ></input>
+    <input name='massumdcp1' id='massumdcp1' className='input8' ></input>
     <input name='massumdcp2' id='massumdcp2' className='input9' ></input>
 </div>
 
@@ -324,17 +401,19 @@ return <body className='tudo' >
     <h5 >Massa específica da água a temperatura T do ensaio</h5>
     <h5 className='espaco17'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' ></input>
-    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9'></input>
+    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' onBlur={MassaEspCPCalc1} ></input>
+    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9' onBlur={MassaEspCPCalc2} ></input>
     </div>
-  
+
+    
+    
 
     <div className='div3'>
     <h5  >Massa específica do corpo de prova</h5>
     <h5 className='espaco18'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='massaespcppv1' id='massaespcppv1' className='input19' ></input>
-    <input name='massaespcppv2' id='massaespcppv2' className='input9' ></input>
+    <input name='massaespcppv1' id='massaespcppv1' className='input19' onBlur={MassaEspMDCalc} ></input>
+    <input name='massaespcppv2' id='massaespcppv2' className='input9' onBlur={MassaEspMDCalc}></input>
    </div>
  
 
