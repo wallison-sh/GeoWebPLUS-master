@@ -111,8 +111,7 @@ function TeorUmidadeCalc1 (){
               var v11 =  v1.value;
               var v22 = v2.value;
               var v33 =  v3.value;
-
-             
+            
               var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
               
               v4.value = resul.toFixed(2);
@@ -128,15 +127,12 @@ function TeorUmidadeCalc1 (){
   
                 var v11 =  v1.value;
                 var v22 = v2.value;
-                var v33 =  v3.value;
-  
-               
+                var v33 =  v3.value;               
                 var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
                 
                 v4.value = resul.toFixed(2);
                 console.log(resul);
                 }
-
 
  function MassaEspCPCalc1 (){
 
@@ -156,7 +152,6 @@ var a5 = aa86.value;
 
 var resul = (( parseFloat(a1)  * 100 / ( 100 + parseFloat(a2) )) / (( parseFloat(a1) * 100 / ( 100 + parseFloat(a2))) + parseFloat(a3) - parseFloat(a4) )) * parseFloat(a5)
 
-
 aa91.value = resul.toFixed(2);
 console.log(resul);
 
@@ -171,24 +166,17 @@ console.log(resul);
   var aa86 = document.querySelector("#MassEspAgaTempT2");
 
   var aa91 = document.querySelector("#massaespcppv2");
-
-
-  
+ 
   var a1 = aa36.value;
   var a2 = aa66.value;
   var a3 = aa71.value;
   var a4 = aa76.value;
-  var a5 = aa86.value;
-  
+  var a5 = aa86.value; 
   var resul = (( parseFloat(a1)  * 100 / ( 100 + parseFloat(a2) )) / (( parseFloat(a1) * 100 / ( 100 + parseFloat(a2))) + parseFloat(a3) - parseFloat(a4) )) * parseFloat(a5)
 
   aa91.value = resul.toFixed(2);
-  console.log(resul);
-  
+  console.log(resul); 
    }
-
-
-
 
    function MassaEspMDCalc () {
 
@@ -203,28 +191,19 @@ console.log(resul);
     var resul = parseInt(resul1) /2 
 
     aaa.value = resul.toFixed(2);
-
-
     
     console.log(resul);
    }
 
- 
-
-
-
-
 function MassaEspRealEmGraos (){
 return <body className='tudo' >
-
-     
+    
     <Navbar />
     <div className='titulolaboratorio' >
       <h1 className='texttitulo'>Massa específica real em grãos</h1>     
       <br/>   
       
     </div>
-
     
 <div className='div' >
     <h3 >Amostra</h3>  
@@ -271,10 +250,7 @@ return <body className='tudo' >
    
     </div>
 
-
 <hr  size='8' color='gray'  />
-
-
 
 
 <div className='div1'>
@@ -322,7 +298,6 @@ return <body className='tudo' >
     <input name='massolumdEcap6' id='massolumdEcap6' className='input13'></input>
 </div>
   
-
 <div className='div3'>
     <h5 >Massa do solo seco + cápsula</h5>
     <h5 className='espaco8'>Ms</h5>
@@ -335,7 +310,6 @@ return <body className='tudo' >
     <input name='massolsecoEcap6' id='massolsecoEcap6' className='input13'></input>
 </div>
   
-
 <div className='div3'>
     <h5 >Massa da cápsula</h5>
     <h5 className='espaco9'>Mc</h5>
@@ -348,7 +322,6 @@ return <body className='tudo' >
     <input name='masscap6' id='masscap6'  onBlur={TeorUmidadeCalc6} className='input13'readonly="readonly"></input>
 </div>
  
-
 <div className='div3'>
     <h5 >Teor de umidade</h5>
     <h5 className='espaco10'>h</h5>
@@ -369,7 +342,6 @@ return <body className='tudo' >
     <input name='teorumdMd2' id='teorumdMd2' className='input9' readonly="readonly"></input>
    </div>
  
-
    <div className='div3'>
     <h5 >Massa do picnômetro + água destilada</h5>
     <h5 className='espaco13'>M³</h5>
@@ -378,7 +350,6 @@ return <body className='tudo' >
     <input name='masspicaguadt2' id='masspicaguadt2' className='input9' readonly="readonly"></input>
   </div>
   
-
   <div className='div3'>
     <h5 >Massa do picnômetro + corpo de prova  {"\n"} + água até o traço de referência</h5>
     <h5 className='espaco15'>M²</h5>
@@ -387,7 +358,6 @@ return <body className='tudo' >
     <input name='masspicCP2' id='masspicCP2' className='input9'></input>
   </div>
   
-
   <div className='div3'>
     <h5 >Temperatura do ensaio</h5>
     <h5 className='espaco16'>T</h5>
@@ -396,7 +366,6 @@ return <body className='tudo' >
     <input name='TempEnsaio2' id='TempEnsaio2' className='input9'></input>
   </div>
   
-
   <div className='div3'>
     <h5 >Massa específica da água a temperatura T do ensaio</h5>
     <h5 className='espaco17'>dT</h5>
@@ -404,10 +373,7 @@ return <body className='tudo' >
     <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' onBlur={MassaEspCPCalc1}  readonly="readonly"></input>
     <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9' onBlur={MassaEspCPCalc2}  readonly="readonly"></input>
     </div>
-
-    
-    
-
+ 
     <div className='div3'>
     <h5  >Massa específica do corpo de prova</h5>
     <h5 className='espaco18'>dT</h5>
@@ -416,7 +382,6 @@ return <body className='tudo' >
     <input name='massaespcppv2' id='massaespcppv2' className='input9' onBlur={MassaEspMDCalc} readonly="readonly"></input>
    </div>
  
-
    <div className='div3'>
     <h5 >Massa específica média</h5>
     <h5 className='espaco19'>dT</h5>
@@ -424,9 +389,6 @@ return <body className='tudo' >
     <input name='massaespMd' id='massaespMd' className='input20' readonly="readonly"></input>  
  </div>
  
-
-
-
  </div>
  </div>
 
@@ -457,14 +419,9 @@ return <body className='tudo' >
     <br/>
     <br/>
     <br/>
-    <br/>
-
-
-
-    
+    <br/>   
 
 </body>
-
 
 }
 
