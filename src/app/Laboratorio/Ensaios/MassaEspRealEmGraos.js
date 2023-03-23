@@ -340,12 +340,12 @@ return <body className='tudo' >
     <h5 >Massa da cápsula</h5>
     <h5 className='espaco9'>Mc</h5>
     <h5 className='espaco6'>g</h5>
-    <input name='masscap1' id='masscap1'  onBlur={TeorUmidadeCalc1} className='input14'></input>
-    <input name='masscap2' id='masscap2'  onBlur={TeorUmidadeCalc2} className='input13'></input>
-    <input name='masscap3' id='masscap3'  onBlur={TeorUmidadeCalc3 }  className='input13'></input>
-    <input name='masscap4' id='masscap4'  onBlur={TeorUmidadeCalc4} className='input15'></input>
-    <input name='masscap5' id='masscap5'  onBlur={TeorUmidadeCalc5} className='input13'></input>
-    <input name='masscap6' id='masscap6'  onBlur={TeorUmidadeCalc6} className='input13'></input>
+    <input name='masscap1' id='masscap1'  onBlur={TeorUmidadeCalc1} className='input14'readonly="readonly"></input>
+    <input name='masscap2' id='masscap2'  onBlur={TeorUmidadeCalc2} className='input13'readonly="readonly"></input>
+    <input name='masscap3' id='masscap3'  onBlur={TeorUmidadeCalc3 }  className='input13'readonly="readonly"></input>
+    <input name='masscap4' id='masscap4'  onBlur={TeorUmidadeCalc4} className='input15'readonly="readonly"></input>
+    <input name='masscap5' id='masscap5'  onBlur={TeorUmidadeCalc5} className='input13'readonly="readonly"></input>
+    <input name='masscap6' id='masscap6'  onBlur={TeorUmidadeCalc6} className='input13'readonly="readonly"></input>
 </div>
  
 
@@ -353,20 +353,20 @@ return <body className='tudo' >
     <h5 >Teor de umidade</h5>
     <h5 className='espaco10'>h</h5>
     <h5 className='espaco11'>%</h5>
-    <input name='teorumd1' id='teorumd1' className='input16'></input>
-    <input name='teorumd2' id='teorumd2' className='input13'></input>
-    <input name='teorumd3' id='teorumd3' onBlur={TeorUmidadeMdCalc1} className='input13'></input>
-    <input name='teorumd4' id='teorumd4' className='input15'></input>
-    <input name='teorumd5' id='teorumd5' className='input13'></input>
-    <input name='teorumd6' id='teorumd6' onBlur={TeorUmidadeMdCalc2}  className='input13'></input>
+    <input name='teorumd1' id='teorumd1' className='input16' readonly="readonly"></input>
+    <input name='teorumd2' id='teorumd2' className='input13' readonly="readonly"></input>
+    <input name='teorumd3' id='teorumd3' onBlur={TeorUmidadeMdCalc1} className='input13'readonly="readonly"></input>
+    <input name='teorumd4' id='teorumd4' className='input15' readonly="readonly"></input>
+    <input name='teorumd5' id='teorumd5' className='input13' readonly="readonly"></input>
+    <input name='teorumd6' id='teorumd6' onBlur={TeorUmidadeMdCalc2}  className='input13' readonly="readonly"></input>
   </div>
 
   <div className='div3'>
     <h5 >Teor de umidade médio</h5>
     <h5 className='espaco12'>h</h5>
     <h5 className='espaco11'>%</h5>
-    <input name='teorumdMd1' id='teorumdMd1' className='input17' ></input>
-    <input name='teorumdMd2' id='teorumdMd2' className='input9'></input>
+    <input name='teorumdMd1' id='teorumdMd1' className='input17' readonly="readonly" ></input>
+    <input name='teorumdMd2' id='teorumdMd2' className='input9' readonly="readonly"></input>
    </div>
  
 
@@ -374,8 +374,8 @@ return <body className='tudo' >
     <h5 >Massa do picnômetro + água destilada</h5>
     <h5 className='espaco13'>M³</h5>
     <h5 className='espaco14'>g</h5>
-    <input name='masspicaguadt1' id='masspicaguadt1' className='input18'></input>
-    <input name='masspicaguadt2' id='masspicaguadt2' className='input9'></input>
+    <input name='masspicaguadt1' id='masspicaguadt1' className='input18' readonly="readonly"></input>
+    <input name='masspicaguadt2' id='masspicaguadt2' className='input9' readonly="readonly"></input>
   </div>
   
 
@@ -401,8 +401,8 @@ return <body className='tudo' >
     <h5 >Massa específica da água a temperatura T do ensaio</h5>
     <h5 className='espaco17'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' onBlur={MassaEspCPCalc1} ></input>
-    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9' onBlur={MassaEspCPCalc2} ></input>
+    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' onBlur={MassaEspCPCalc1}  readonly="readonly"></input>
+    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9' onBlur={MassaEspCPCalc2}  readonly="readonly"></input>
     </div>
 
     
@@ -412,8 +412,8 @@ return <body className='tudo' >
     <h5  >Massa específica do corpo de prova</h5>
     <h5 className='espaco18'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='massaespcppv1' id='massaespcppv1' className='input19' onBlur={MassaEspMDCalc} ></input>
-    <input name='massaespcppv2' id='massaespcppv2' className='input9' onBlur={MassaEspMDCalc}></input>
+    <input name='massaespcppv1' id='massaespcppv1' className='input19' onBlur={MassaEspMDCalc} readonly="readonly"></input>
+    <input name='massaespcppv2' id='massaespcppv2' className='input9' onBlur={MassaEspMDCalc} readonly="readonly"></input>
    </div>
  
 
@@ -421,7 +421,7 @@ return <body className='tudo' >
     <h5 >Massa específica média</h5>
     <h5 className='espaco19'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='massaespMd' id='massaespMd' className='input20'></input>  
+    <input name='massaespMd' id='massaespMd' className='input20' readonly="readonly"></input>  
  </div>
  
 
