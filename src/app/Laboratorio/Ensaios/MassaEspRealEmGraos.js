@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
 
+
+
+//CÁLCULOS
 function TeorUmidadeCalc1 (){
 
   var v1 = document.querySelector("#massolumdEcap1");
