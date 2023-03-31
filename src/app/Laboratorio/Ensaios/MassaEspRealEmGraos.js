@@ -1,8 +1,25 @@
-import React from 'react';
+import Conexao from '../Config/conexao';
+import React, { useState, useContext } from 'react';
+import axios from 'axios';
 import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
 
 
+//BANCO DE DADOS
+
+
+/* async function buscar() {
+  
+  const res = await axios.post(Conexao.api  + 'BuscarMassaEspecificaGrao.php');
+  if (res.data.success === '') {
+   // setLogado(false);
+    //setSucesso('N');
+
+  } else {
+   // setLogado(true);
+   // setSucesso('S');
+  }
+} */
 
 //CÁLCULOS
 function TeorUmidadeCalc1 (){
@@ -18,7 +35,7 @@ function TeorUmidadeCalc1 (){
   var resul2 = (parseInt(v22) - parseInt(v33)) ;
   var resul = (parseInt(resul1)/parseInt(resul2))*100
   
-  v4.value = resul.toFixed(2);
+  v4.value = resul.toFixed(1);
   console.log(resul);
   }
 
@@ -35,7 +52,7 @@ function TeorUmidadeCalc1 (){
     var resul2 = (parseInt(v22) - parseInt(v33)) ;
     var resul = (parseInt(resul1)/parseInt(resul2))*100
     
-    v4.value = resul.toFixed(2);
+    v4.value = resul.toFixed(1);
     console.log(resul);
     }
 
@@ -52,7 +69,7 @@ function TeorUmidadeCalc1 (){
       var resul2 = (parseInt(v22) - parseInt(v33)) ;
       var resul = (parseInt(resul1)/parseInt(resul2))*100
       
-      v4.value = resul.toFixed(2);
+      v4.value = resul.toFixed(1);
       console.log(resul);
       }
       function TeorUmidadeCalc4(){
@@ -68,7 +85,7 @@ function TeorUmidadeCalc1 (){
         var resul2 = (parseInt(v22) - parseInt(v33)) ;
         var resul = (parseInt(resul1)/parseInt(resul2))*100
         
-        v4.value = resul.toFixed(2);
+        v4.value = resul.toFixed(1);
         console.log(resul);
         }
         function TeorUmidadeCalc5 (){
@@ -84,7 +101,7 @@ function TeorUmidadeCalc1 (){
           var resul2 = (parseInt(v22) - parseInt(v33)) ;
           var resul = (parseInt(resul1)/parseInt(resul2))*100
           
-          v4.value = resul.toFixed(2);
+          v4.value = resul.toFixed(1);
           console.log(resul);
           }
           function TeorUmidadeCalc6 (){
@@ -94,13 +111,13 @@ function TeorUmidadeCalc1 (){
             var v3 = document.querySelector("#masscap6");
             var v4 = document.querySelector("#teorumd6");
             var v11 =  v1.value;
-            var v22 = v2.value;
+            var v22 =  v2.value;
             var v33 =  v3.value;
             var resul1 = (parseInt(v11) - parseInt(v22)) ;
             var resul2 = (parseInt(v22) - parseInt(v33)) ;
             var resul = (parseInt(resul1)/parseInt(resul2))*100
             
-            v4.value = resul.toFixed(2);
+            v4.value = resul.toFixed(1);
             console.log(resul);
             }
 
@@ -112,7 +129,7 @@ function TeorUmidadeCalc1 (){
               var v4 = document.querySelector("#teorumdMd1");
 
               var v11 =  v1.value;
-              var v22 = v2.value;
+              var v22 =  v2.value;
               var v33 =  v3.value;
             
               var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
@@ -129,7 +146,7 @@ function TeorUmidadeCalc1 (){
                 var v4 = document.querySelector("#teorumdMd2");
   
                 var v11 =  v1.value;
-                var v22 = v2.value;
+                var v22 =  v2.value;
                 var v33 =  v3.value;               
                 var resul = (parseInt(v11)+parseInt(v22)+parseInt(v33))/3
                 
@@ -153,7 +170,7 @@ var a3 = aa71.value;
 var a4 = aa76.value;
 var a5 = aa86.value;
 
-var resul = (( parseFloat(a1)  * 100 / ( 100 + parseFloat(a2) )) / (( parseFloat(a1) * 100 / ( 100 + parseFloat(a2))) + parseFloat(a3) - parseFloat(a4) )) * parseFloat(a5)
+var resul = (( parseInt(a1)  * 100 / ( 100 + parseInt(a2) )) / (( parseInt(a1) * 100 / ( 100 + parseInt(a2))) + parseInt(a3) - parseInt(a4) )) * parseInt(a5)
 
 aa91.value = resul.toFixed(2);
 console.log(resul);
@@ -175,7 +192,7 @@ console.log(resul);
   var a3 = aa71.value;
   var a4 = aa76.value;
   var a5 = aa86.value; 
-  var resul = (( parseFloat(a1)  * 100 / ( 100 + parseFloat(a2) )) / (( parseFloat(a1) * 100 / ( 100 + parseFloat(a2))) + parseFloat(a3) - parseFloat(a4) )) * parseFloat(a5)
+  var resul = (( parseInt(a1)  * 100 / ( 100 + parseInt(a2) )) / (( parseInt(a1) * 100 / ( 100 + parseInt(a2))) + parseInt(a3) - parseInt(a4) )) * parseInt(a5)
 
   aa91.value = resul.toFixed(2);
   console.log(resul); 
@@ -210,18 +227,20 @@ return <body className='tudo' >
     
 <div className='div' >
     <h3 >Amostra</h3>  
-    <input id='amostra' name='amostra'  placeholder='Digite a amostra' className='input1'  ></input>     
+    <input id='amostra' name='amostra'  placeholder='Digite a amostra' className='input1'  ></input>    
+    <h3 className='label1' > -</h3> 
+    <input id='amostra1' name='amostra1'  className='input26'  ></input>
       <button  className='button' >
         <img  src="/Images/lupa.jpg" alt="" height='60px' className='button1' />
       </button>
       </div>  
 
 <div className='div1'>
-<div className='div2'>
+<div className='div6'>
 
   <div className='div3'>
     <h5   >Estufa</h5>      
-<select name="select" className='input2' >
+<select name="select" className='input23'  >
 <option value="LAB.001">LAB.001</option>
   <option value="LAB.002" selected>LAB.002</option>
   <option value="LAB.003">LAB.003</option>
@@ -230,24 +249,24 @@ return <body className='tudo' >
 
 <div className='div3'>
     <h5 >Balança</h5>     
-    <select name="select" className='input3' >
-    <option value="LAB.001">LAB.001</option>
-  <option value="LAB.002" selected>LAB.002</option>
-  <option value="LAB.003">LAB.003</option>
+    <select name="select" className='input3'  >
+    <option value="LAB.001" >LAB.001</option>
+  <option value="LAB.002"  selected>LAB.002</option>
+  <option value="LAB.003" >LAB.003</option>
 </select>
 </div>
 
 </div>
 
-<div className='div2'>
+<div className='div7'>
 <div className='div3'>
     <h5 >Norma de ensaio</h5>
-    <input className='input4' ></input>   
+    <input className='input24' size={60} ></input>   
     </div>
 
     <div className='div3'>
     <h5 >Laboratório</h5>
-    <input className='input5' ></input>   
+    <input className='input25' size={60} ></input>   
     </div>
     </div>
    
@@ -317,40 +336,40 @@ return <body className='tudo' >
     <h5 >Massa da cápsula</h5>
     <h5 className='espaco9'>Mc</h5>
     <h5 className='espaco6'>g</h5>
-    <input name='masscap1' id='masscap1'  onBlur={TeorUmidadeCalc1} className='input14'readonly="readonly"></input>
-    <input name='masscap2' id='masscap2'  onBlur={TeorUmidadeCalc2} className='input13'readonly="readonly"></input>
-    <input name='masscap3' id='masscap3'  onBlur={TeorUmidadeCalc3 }  className='input13'readonly="readonly"></input>
-    <input name='masscap4' id='masscap4'  onBlur={TeorUmidadeCalc4} className='input15'readonly="readonly"></input>
-    <input name='masscap5' id='masscap5'  onBlur={TeorUmidadeCalc5} className='input13'readonly="readonly"></input>
-    <input name='masscap6' id='masscap6'  onBlur={TeorUmidadeCalc6} className='input13'readonly="readonly"></input>
+    <input name='masscap1' id='masscap1'  onBlur={TeorUmidadeCalc1} className='input14'></input>
+    <input name='masscap2' id='masscap2'  onBlur={TeorUmidadeCalc2} className='input13'></input>
+    <input name='masscap3' id='masscap3'  onBlur={TeorUmidadeCalc3 }  className='input13'></input>
+    <input name='masscap4' id='masscap4'  onBlur={TeorUmidadeCalc4} className='input15'></input>
+    <input name='masscap5' id='masscap5'  onBlur={TeorUmidadeCalc5} className='input13'></input>
+    <input name='masscap6' id='masscap6'  onBlur={TeorUmidadeCalc6} className='input13'></input>
 </div>
  
 <div className='div3'>
     <h5 >Teor de umidade</h5>
     <h5 className='espaco10'>h</h5>
     <h5 className='espaco11'>%</h5>
-    <input name='teorumd1' id='teorumd1' className='input16' readonly="readonly"></input>
-    <input name='teorumd2' id='teorumd2' className='input13' readonly="readonly"></input>
-    <input name='teorumd3' id='teorumd3' onBlur={TeorUmidadeMdCalc1} className='input13'readonly="readonly"></input>
-    <input name='teorumd4' id='teorumd4' className='input15' readonly="readonly"></input>
-    <input name='teorumd5' id='teorumd5' className='input13' readonly="readonly"></input>
-    <input name='teorumd6' id='teorumd6' onBlur={TeorUmidadeMdCalc2}  className='input13' readonly="readonly"></input>
+    <input name='teorumd1' id='teorumd1' onBlur={TeorUmidadeMdCalc1} className='input16' ></input>
+    <input name='teorumd2' id='teorumd2' onBlur={TeorUmidadeMdCalc1} className='input13' ></input>
+    <input name='teorumd3' id='teorumd3' onBlur={TeorUmidadeMdCalc1} className='input13'></input>
+    <input name='teorumd4' id='teorumd4' onBlur={TeorUmidadeMdCalc2} className='input15' ></input>
+    <input name='teorumd5' id='teorumd5' onBlur={TeorUmidadeMdCalc2} className='input13' ></input>
+    <input name='teorumd6' id='teorumd6' onBlur={TeorUmidadeMdCalc2} className='input13' ></input>
   </div>
 
   <div className='div3'>
     <h5 >Teor de umidade médio</h5>
     <h5 className='espaco12'>h</h5>
     <h5 className='espaco11'>%</h5>
-    <input name='teorumdMd1' id='teorumdMd1' className='input17' readonly="readonly" ></input>
-    <input name='teorumdMd2' id='teorumdMd2' className='input9' readonly="readonly"></input>
+    <input name='teorumdMd1' id='teorumdMd1' className='input17'  ></input>
+    <input name='teorumdMd2' id='teorumdMd2' className='input9' ></input>
    </div>
  
    <div className='div3'>
     <h5 >Massa do picnômetro + água destilada</h5>
     <h5 className='espaco13'>M³</h5>
     <h5 className='espaco14'>g</h5>
-    <input name='masspicaguadt1' id='masspicaguadt1' className='input18' readonly="readonly"></input>
-    <input name='masspicaguadt2' id='masspicaguadt2' className='input9' readonly="readonly"></input>
+    <input name='masspicaguadt1' id='masspicaguadt1' className='input18' ></input>
+    <input name='masspicaguadt2' id='masspicaguadt2' className='input9' ></input>
   </div>
   
   <div className='div3'>
@@ -373,23 +392,23 @@ return <body className='tudo' >
     <h5 >Massa específica da água a temperatura T do ensaio</h5>
     <h5 className='espaco17'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' onBlur={MassaEspCPCalc1}  readonly="readonly"></input>
-    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9' onBlur={MassaEspCPCalc2}  readonly="readonly"></input>
+    <input name='MassEspAgaTempT1' id='MassEspAgaTempT1' className='input19' onBlur={MassaEspCPCalc1}  ></input>
+    <input name='MassEspAgaTempT2' id='MassEspAgaTempT2'  className='input9' onBlur={MassaEspCPCalc2}  ></input>
     </div>
  
     <div className='div3'>
     <h5  >Massa específica do corpo de prova</h5>
     <h5 className='espaco18'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='massaespcppv1' id='massaespcppv1' className='input19' onBlur={MassaEspMDCalc} readonly="readonly"></input>
-    <input name='massaespcppv2' id='massaespcppv2' className='input9' onBlur={MassaEspMDCalc} readonly="readonly"></input>
+    <input name='massaespcppv1' id='massaespcppv1' className='input19' onBlur={MassaEspMDCalc} ></input>
+    <input name='massaespcppv2' id='massaespcppv2' className='input9' onBlur={MassaEspMDCalc} ></input>
    </div>
  
    <div className='div3'>
     <h5 >Massa específica média</h5>
     <h5 className='espaco19'>dT</h5>
     <h5 className='espaco14'>g/cm³</h5>
-    <input name='massaespMd' id='massaespMd' className='input20' readonly="readonly"></input>  
+    <input name='massaespMd' id='massaespMd' className='input20' ></input>  
  </div>
  
  </div>
@@ -429,14 +448,6 @@ return <body className='tudo' >
 }
 
 
-
-
-            
-                  
-                  
-        
-
-          
 
              
 
