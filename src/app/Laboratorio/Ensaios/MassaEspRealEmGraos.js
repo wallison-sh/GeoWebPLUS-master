@@ -1,8 +1,9 @@
-import Conexao from '../Config/conexao';
-import React, { useState, useContext } from 'react';
-import axios from 'axios';
+// import Conexao from '../Config/conexao';
+//import React, { useState, useContext } from 'react';
+//import axios from 'axios'; 
 import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
+import React from 'react';
 
 
 //BANCO DE DADOS
