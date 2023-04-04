@@ -1,26 +1,9 @@
-// import Conexao from '../Config/conexao';
-//import React, { useState, useContext } from 'react';
-//import axios from 'axios'; 
+
 import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
 import React from 'react';
 
 
-//BANCO DE DADOS
-
-
-/* async function buscar() {
-  
-  const res = await axios.post(Conexao.api  + 'BuscarMassaEspecificaGrao.php');
-  if (res.data.success === '') {
-   // setLogado(false);
-    //setSucesso('N');
-
-  } else {
-   // setLogado(true);
-   // setSucesso('S');
-  }
-} */
 
 //CÁLCULOS
 function TeorUmidadeCalc1 (){
