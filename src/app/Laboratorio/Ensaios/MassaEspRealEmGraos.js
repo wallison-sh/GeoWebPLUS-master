@@ -3,9 +3,101 @@ import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
 import React from 'react';
 
+function MassaEspRealEmGraos (){
 
+  return <body className=" align-items-center text-center form-container">
+<Navbar/>
+<form className="container-fluid " >
+   <div className="form-floating">
 
-//CÁLCULOS
+      <div className='titulolaboratorio' >
+      <h1 >Massa específica real em grãos</h1>                 
+    </div>
+
+    <br/> 
+
+   
+<div className="  row d-flex justify-content-center  align-items-center  " > 
+<div class="col-auto ">
+    <h3  >Amostra</h3>   
+    </div>
+    <div class="col-auto">
+    <input type="number"  id='amostra' name='amostra'  placeholder='Digite a amostra'  className='input1 ' ></input>     
+    </div>
+    <div class="col-auto">
+    <h3 >-</h3>   
+    </div>
+    <div class="col-auto">
+    <input id='amostra1' name='amostra1' type="number" className='input2 '   ></input>
+    </div>
+    <div class="col-auto">
+      <button className='button '  >
+        <img  src="/Images/lupa.jpg" alt="" height='60px'  />
+      </button>    
+      </div>
+      </div>  
+
+      <br/> 
+
+      <body className="  row  d-flex justify-content-evenly align-items-center " > 
+      <div class="col-auto">
+<div className="  row  align-items-center ">
+<div class="col-auto">
+        <h5>Estufa</h5>
+        </div>
+        <div class="col-auto">
+        <select name="select1" className='input4'  >
+<option value="LAB.001">LAB.001</option>
+  <option value="LAB.002" >LAB.002</option>
+  <option value="LAB.003">LAB.003</option>
+</select>
+</div>
+</div>
+<div className="  row  align-items-center ">
+<div class="col-auto">
+        <h5>Balança</h5>
+        </div>
+        <div class="col-auto">
+        <select name="select2" className='input3' >
+<option value="LAB.001">LAB.001</option>
+  <option value="LAB.002" >LAB.002</option>
+  <option value="LAB.003">LAB.003</option>
+</select>
+</div>
+</div>
+      </div>
+      
+      <div class="col-auto">
+      <div className="  row  align-items-center ">
+<div class="col-auto">
+<h5 >Norma de ensaio</h5>
+        </div>
+        <div class="col-auto">
+        <input className='input3'  ></input> 
+</div>
+</div>
+<div className="  row  align-items-center ">
+<div class="col-auto">
+<h5 >Laboratório</h5>
+        </div>
+        <div class="col-auto">
+        <input className='input5'  ></input> 
+</div>
+</div>
+      </div>
+      </body>
+    
+      <hr  size='8' color='gray'  />
+
+    
+    
+
+     
+ </div>
+</form>
+</body>
+
+/* //CÁLCULOS
 function TeorUmidadeCalc1 (){
 
   var v1 = document.querySelector("#massolumdEcap1");
@@ -226,7 +318,7 @@ return <body className='tudo' >
     <h5   >Estufa</h5>      
 <select name="select" className='input23'  >
 <option value="LAB.001">LAB.001</option>
-  <option value="LAB.002" selected>LAB.002</option>
+  <option value="LAB.002" >LAB.002</option>
   <option value="LAB.003">LAB.003</option>
 </select>
 </div>
@@ -235,7 +327,7 @@ return <body className='tudo' >
     <h5 >Balança</h5>     
     <select name="select" className='input3'  >
     <option value="LAB.001" >LAB.001</option>
-  <option value="LAB.002"  selected>LAB.002</option>
+  <option value="LAB.002"  >LAB.002</option>
   <option value="LAB.003" >LAB.003</option>
 </select>
 </div>
@@ -426,7 +518,7 @@ return <body className='tudo' >
     <br/>
     <br/>   
 
-</body>
+</body> */
 
 }
 
