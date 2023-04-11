@@ -258,7 +258,6 @@ return <body className='tudo' >
 
 <hr  size='8' color='gray'  />
 
-
 <div className='div1'>
 <div className='div2'>
 <div className='div3'>
