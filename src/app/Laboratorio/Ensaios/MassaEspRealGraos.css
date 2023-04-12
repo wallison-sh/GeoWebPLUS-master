@@ -1,20 +1,20 @@
+
+/* CABEÇALJO */
+
 .input1{
     text-align: center;
     width: 200px;
-    /* margin-left: 1%; */
     padding: 5px;   
 }
 
 .input2{
     text-align: center; 
-    /* margin-left: 6.8%; */
     padding: 5px; 
     width: 60px;
 }
 .input3{
     text-align: center;
     width: 150px;
-    /* margin-left: 1%; */
     padding: 5px;   
 }
 .input4{
@@ -26,23 +26,25 @@
 .input5{
     text-align: center;
     width: 150px;
-    margin-left: 50px; 
+    margin-left: 49.4px; 
     padding: 5px;   
 }
-
-
 .button{
     padding: 0.5%;
     background-color: white;
-    /* margin-left: 1%; */
     border: 0px;
 }
-
 .button1{
     width: 110%;   
     padding: 0%;      
 }
 
+/* corpo do ensaio*/
+.input3{
+    text-align: center;
+    width: 70px;
+    padding: 5px;   
+}
 
 
 

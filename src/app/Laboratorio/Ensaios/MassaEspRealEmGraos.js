@@ -11,6 +11,7 @@ function MassaEspRealEmGraos (){
    <div className="form-floating">
 
       <div className='titulolaboratorio' >
+      <br/> 
       <h1 >Massa específica real em grãos</h1>                 
     </div>
 
@@ -89,7 +90,152 @@ function MassaEspRealEmGraos (){
     
       <hr  size='8' color='gray'  />
 
-    
+      <br/> 
+
+   <body className="  col  align-items-center  ">
+
+   <body  className="  row  align-items-center ">
+<div className="  col-5  ">
+<h5  >Corpo de prova</h5>
+</div>
+<div className="  col-5   ">
+<h5  >I</h5>
+</div>
+<div className=" col-1   ">
+<h5 >II</h5>
+</div>
+</body>
+
+<body  className="  row  align-items-center  ">
+<div className="  col-5  ">
+<h5 name='picnometro' id='picnometro'  >Picnômetro</h5>
+</div>
+<div className="  col-1  ">
+    <h5 >n°</h5>
+    </div>
+    <div className="  col-3  ">
+    <input name='ipicnometro1' id='ipicnometro1' type="number" className="   input1 "  ></input>
+    </div>
+    <div className="  col-3  ">
+    <input name='ipicnometro2' id='ipicnometro2' type="number" className="   input1 " ></input>
+    </div>
+</body>
+
+
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  ">
+<h5 >Massa úmida do corpo de prova</h5>
+</div>
+<div className="  col-1  ">
+<h5  > M¹  </h5>  
+</div>
+<div className="  col-3  ">
+<input name='massumdcp1' id='massumdcp1' type="number" className='input1' ></input>
+</div>
+<div className="  col-3  ">
+<input name='massumdcp2' id='massumdcp2' type="number" className='input1' ></input>
+</div>
+      
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  ">
+<h5 >Cápsula</h5>
+</div>
+<div className="  col-1  ">
+<h5 >n°</h5>
+</div>
+
+<div className="  col-3  "> 
+<div className="  row  align-items-center ">
+<div className="  col-3  " >
+<input name='capsula1' id='capsula1' type="number" className='input3' ></input>
+</div>
+<div className="  col-3  " >
+<input name='capsula2' id='capsula2'type="number" className='input3'></input>
+</div>
+<div className="  col-3  ">
+<input name='capsula3' id='capsula3' type="number" className='input3'></input>
+</div>
+</div>
+</div>
+
+<div className="  col-3  "> 
+<div className="  row  align-items-center ">
+<div className="  col-3  ">
+<input name='capsula4' id='capsula4' type="number" className='input3'></input>
+</div>
+<div className="  col-3  ">
+<input name='capsula5' id='capsula5' type="number" className='input3'></input>
+</div>
+<div className="  col-3  ">
+<input name='capsula6' id='capsula6' type="number" className='input3'></input>
+</div>
+</div>
+</div>
+</body>
+
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+<body  className="  row  align-items-center ">
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+<div className="  col-5  "></div>
+</body>
+
+
+ 
+   </body>
     
 
      
