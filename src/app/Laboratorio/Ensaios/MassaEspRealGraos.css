@@ -20,13 +20,13 @@
 .input4{
     text-align: center;
     width: 150px;
-    margin-left: 14.5px; 
+    margin-left: 11.2px; 
     padding: 5px;   
 }
 .input5{
     text-align: center;
     width: 150px;
-    margin-left: 49.4px; 
+    margin-left: 53px; 
     padding: 5px;   
 }
 .button{
@@ -40,10 +40,37 @@
 }
 
 /* corpo do ensaio*/
-.input3{
+.input6{
     text-align: center;
-    width: 70px;
+    width: 250px;
     padding: 5px;   
+}
+.input7{
+    text-align: center;
+    width: 60px;
+    padding: 5px;   
+}
+
+.input8{
+    text-align: center;
+    width: 480px;
+    padding: 5px;   
+}
+
+.input9{
+    text-align: center;
+    width: 500px;
+    padding: 75px;   
+}
+
+
+.label{
+    text-align: left;
+    margin-left: 20px; 
+}
+.label2{
+    text-align: left;
+    margin-right: 50px; 
 }
 
 
