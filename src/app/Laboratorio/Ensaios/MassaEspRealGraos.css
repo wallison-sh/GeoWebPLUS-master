@@ -3,31 +3,34 @@
 
 .input1{
     text-align: center;
-    width: 200px;
-    padding: 5px;   
+    width: 100%;
+    padding: 4%;   
 }
 
 .input2{
     text-align: center; 
-    padding: 5px; 
+    padding: 15%; 
     width: 60px;
+    
 }
+
+
 .input3{
     text-align: center;
     width: 150px;
-    padding: 5px;   
+    padding: 4%;   
 }
 .input4{
     text-align: center;
     width: 150px;
-    margin-left: 11.2px; 
-    padding: 5px;   
+    margin-left: 11px; 
+    padding: 4%;   
 }
 .input5{
     text-align: center;
     width: 150px;
-    margin-left: 53px; 
-    padding: 5px;   
+    margin-left: 53.5px; 
+    padding: 4%;  
 }
 .button{
     padding: 0.5%;
@@ -42,19 +45,19 @@
 /* corpo do ensaio*/
 .input6{
     text-align: center;
-    width: 250px;
-    padding: 5px;   
+    width: 100%;
+    padding: 2%;   
 }
 .input7{
     text-align: center;
-    width: 60px;
-    padding: 5px;   
+    width: 100%;
+    padding: 4%;   
 }
 
 .input8{
     text-align: center;
-    width: 480px;
-    padding: 5px;   
+    width: 143.9%;
+    padding: 1.5%;   
 }
 
 .input9{
@@ -66,13 +69,129 @@
 
 .label{
     text-align: left;
-    margin-left: 20px; 
+    margin-left: 2%; 
 }
 .label2{
     text-align: left;
-    margin-right: 50px; 
+    margin-right: 5%;   
 }
 
+/*espaços*/
+
+.espaco1{
+    margin-left: 21.8%; 
+}
+.espaco2{
+    margin-left: 14.7%; 
+}
+.espaco3{
+    margin-left: 6.3%; 
+}
+.espaco4{
+    margin-left: 2%; 
+}
+.espaco5{
+    margin-left: 5.95%; 
+}
+.espaco6{
+    margin-left: 2%; 
+}
+.espaco7{
+    margin-left: 6.3%; 
+}
+.espaco8{
+    margin-left: 2%; 
+}
+.espaco9{
+    margin-left: 0.25%; 
+}
+.espaco10{
+    margin-left: 11%; 
+}
+.espaco11{
+    margin-left: 0.25%; 
+}
+.espaco12{
+    margin-left: 350px;
+}
+
+
+
+.vermelho{box-shadow: inset 2px 2px 4px red;}
+.verde{box-shadow: inset 2px 2px 4px green}
+.azul{box-shadow: inset 2px 2px 4px blue}
+.preto{box-shadow: inset 2px 2px 4px black}
+.roxo{box-shadow: inset 2px 2px 4px rgb(174, 0, 255);}
+
+.test{
+    justify-content: space-between;
+}
+
+
+@media  (min-width: 1250px)and (max-width:1339px){
+
+    .espaco1{
+        margin-left: 20.8%; 
+    }
+    .espaco2{
+        margin-left: 12.7%; 
+    }
+    .espaco3{
+        margin-left: 5.2%; 
+    }
+    .espaco4{
+        margin-left: 2%; 
+    }
+    .espaco5{
+        margin-left: 4.7%; 
+    }
+    .espaco6{
+        margin-left: 2%; 
+    }
+    .espaco7{
+        margin-left: 5.2%; 
+    }
+    .espaco12{
+        margin-left: 300px;
+    }
+    .input5{
+        text-align: center;
+        width: 150px;
+        margin-left: 53px; 
+        padding: 4%;  
+    }
+    .input4{
+        text-align: center;
+        width: 150px;
+        margin-left: 10.55px; 
+        padding: 4%;   
+    }
+
+}
+
+@media  (min-width: 1440px)and (max-width:1650px){
+    .espaco1{
+        margin-left: 21.8%; 
+    }
+    .espaco2{
+        margin-left: 13.5%; 
+    }
+     .espaco3{
+        margin-left: 5.7%; 
+    }
+    .espaco4{
+        margin-left: 2%; 
+    }
+    .espaco5{
+        margin-left: 5.3%; 
+    } 
+    .espaco6{
+        margin-left: 2%; 
+    }
+    .espaco7{
+        margin-left: 5.75%; 
+    } 
+}
 
 
 
