@@ -5,6 +5,11 @@ import React from 'react';
 
 function MassaEspRealEmGraos (){
 
+  
+
+
+  
+
   //CÁLCULOS
 function TeorUmidadeCalc1 (){
 
@@ -214,12 +219,14 @@ console.log(resul);
     <br/> 
 
    
+
+   
 <div className="  row d-flex justify-content-center  align-items-center p-1 " > 
 <div class="col-auto  ">
-    <h3  >Amostra</h3>   
+    <h3    >Amostra</h3>   
     </div>
     <div class="col-auto  ">
-    <input type="number"  id='amostra' name='amostra'  placeholder='Digite a amostra'  class="form-control" ></input>     
+    <input type="number"  id='amostra' name='amostra'  placeholder='Digite a amostra'  class="form-control w-90" ></input>     
     </div>
     <div class="col-auto  ">
     <h3 >-</h3>   
@@ -755,7 +762,7 @@ console.log(resul);
 
 <div className="  col-4    ">
   <h5 className="  label  " >Observações</h5>
-<input className='form-control input9' name='obs' id='obs' ></input>
+<textarea cols={100} rows={6} className='form-control w-200' name='obs' id='obs' ></textarea>
 </div>
 
 <div className="  col-auto  espaco12   ">
