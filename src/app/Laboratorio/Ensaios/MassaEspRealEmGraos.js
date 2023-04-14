@@ -219,13 +219,13 @@ console.log(resul);
     <h3  >Amostra</h3>   
     </div>
     <div class="col-auto  ">
-    <input type="number"  id='amostra' name='amostra'  placeholder='Digite a amostra'  className='input1 ' ></input>     
+    <input type="number"  id='amostra' name='amostra'  placeholder='Digite a amostra'  class="form-control" ></input>     
     </div>
     <div class="col-auto  ">
     <h3 >-</h3>   
     </div>
     <div class="col-auto  ">
-    <input id='amostra1' name='amostra1' type="number" className='input2 '   ></input>
+    <input id='amostra1' name='amostra1' type="number" class="form-control input2"   ></input>
     </div>
     <div class="col-auto ">
       <button className='button '  >
@@ -243,7 +243,7 @@ console.log(resul);
         <h5>Estufa</h5>
         </div>
         <div class="col-auto">
-        <select name="select1" className='input4'  >
+        <select name="select1" className='form-control input4'  >
 <option value="LAB.001">LAB.001</option>
   <option value="LAB.002" >LAB.002</option>
   <option value="LAB.003">LAB.003</option>
@@ -255,7 +255,7 @@ console.log(resul);
         <h5>Balança</h5>
         </div>
         <div class="col-auto">
-        <select name="select2" className='input3' >
+        <select name="select2" className='form-control input3 ' >
 <option value="LAB.001">LAB.001</option>
   <option value="LAB.002" >LAB.002</option>
   <option value="LAB.003">LAB.003</option>
@@ -270,7 +270,7 @@ console.log(resul);
 <h5 >Norma de ensaio</h5>
         </div>
         <div class="col-auto">
-        <input className='input3'  ></input> 
+        <input className='form-control input3'  ></input> 
 </div>
 </div>
 <div className="  row  align-items-center ">
@@ -278,7 +278,7 @@ console.log(resul);
 <h5 >Laboratório</h5>
         </div>
         <div class="col-auto">
-        <input className='input5'  ></input> 
+        <input className='form-control input5'  ></input> 
 </div>
 </div>
       </div>
@@ -315,10 +315,10 @@ console.log(resul);
     <h5 >n°</h5>
     </div>
     <div className="  col-2  espaco3   ">
-    <input name='ipicnometro1' id='ipicnometro1' type="number" className="   input6 "  ></input>
+    <input name='ipicnometro1' id='ipicnometro1' type="number" className=" form-control  input6 "  ></input>
     </div>
     <div className="  col-2  espaco4     ">
-    <input name='ipicnometro2' id='ipicnometro2' type="number" className="   input6 " ></input>
+    <input name='ipicnometro2' id='ipicnometro2' type="number" className="  form-control input6 " ></input>
     </div>
 </body>
 
@@ -332,10 +332,10 @@ console.log(resul);
 <h5  > M¹  </h5>  
 </div>
 <div className="  col-2 espaco5   ">
-<input name='massumdcp1' id='massumdcp1' type="number" className='input6' ></input>
+<input name='massumdcp1' id='massumdcp1' type="number" className=' form-control input6' ></input>
 </div>
 <div className="  col-2 espaco6  ">
-<input name='massumdcp2' id='massumdcp2' type="number" className='input6' ></input>
+<input name='massumdcp2' id='massumdcp2' type="number" className='form-control input6' ></input>
 </div>
       
 </body>
@@ -352,13 +352,13 @@ console.log(resul);
 <div className="  col-2 espaco7   "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  " >
-<input name='capsula1' id='capsula1' type="number" className='input7' ></input>
+<input name='capsula1' id='capsula1' type="number" className='form-control input7' ></input>
 </div>
 <div className="  col-4  " >
-<input name='capsula2' id='capsula2'type="number" className='input7'></input>
+<input name='capsula2' id='capsula2'type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='capsula3' id='capsula3' type="number" className='input7'></input>
+<input name='capsula3' id='capsula3' type="number" className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -366,13 +366,13 @@ console.log(resul);
 <div className="  col-2  espaco8  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  ">
-<input name='capsula4' id='capsula4' type="number" className='input7'></input>
+<input name='capsula4' id='capsula4' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='capsula5' id='capsula5' type="number" className='input7'></input>
+<input name='capsula5' id='capsula5' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='capsula6' id='capsula6' type="number" className='input7'></input>
+<input name='capsula6' id='capsula6' type="number" className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -398,13 +398,13 @@ console.log(resul);
 <div className="  col-2  espaco9 "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  " >
-<input name='massolumdEcap1' id='massolumdEcap1' type="number" className='input7' ></input>
+<input name='massolumdEcap1' id='massolumdEcap1' type="number" className='form-control input7' ></input>
 </div>
 <div className="  col-4  " >
-<input name='massolumdEcap2' id='massolumdEcap2' type="number" className='input7'></input>
+<input name='massolumdEcap2' id='massolumdEcap2' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='massolumdEcap3' id='massolumdEcap3' type="number" className='input7'></input>
+<input name='massolumdEcap3' id='massolumdEcap3' type="number" className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -412,13 +412,13 @@ console.log(resul);
 <div className="  col-2  espaco8 "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  ">
-<input name='massolumdEcap4' id='massolumdEcap4' type="number" className='input7'></input>
+<input name='massolumdEcap4' id='massolumdEcap4' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4 ">
-<input name='massolumdEcap5' id='massolumdEcap5' type="number" className='input7'></input>
+<input name='massolumdEcap5' id='massolumdEcap5' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='massolumdEcap6' id='massolumdEcap6' type="number" className='input7'></input>
+<input name='massolumdEcap6' id='massolumdEcap6' type="number" className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -443,13 +443,13 @@ console.log(resul);
 <div className="  col-2 espaco9  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  " >
-<input name='massolsecoEcap1' id='massolsecoEcap1' type="number" className='input7' ></input>
+<input name='massolsecoEcap1' id='massolsecoEcap1' type="number" className='form-control input7' ></input>
 </div>
 <div className="  col-4  " >
-<input name='massolsecoEcap2' id='massolsecoEcap2' type="number" className='input7'></input>
+<input name='massolsecoEcap2' id='massolsecoEcap2' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4 ">
-<input name='massolsecoEcap3' id='massolsecoEcap3' type="number" className='input7'></input>
+<input name='massolsecoEcap3' id='massolsecoEcap3' type="number" className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -457,13 +457,13 @@ console.log(resul);
 <div className="  col-2 espaco8  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  ">
-<input name='massolsecoEcap4' id='massolsecoEcap4' type="number" className='input7'></input>
+<input name='massolsecoEcap4' id='massolsecoEcap4' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='massolsecoEcap5' id='massolsecoEcap5' type="number" className='input7'></input>
+<input name='massolsecoEcap5' id='massolsecoEcap5' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='massolsecoEcap6' id='massolsecoEcap6' type="number" className='input7'></input>
+<input name='massolsecoEcap6' id='massolsecoEcap6' type="number" className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -491,13 +491,13 @@ console.log(resul);
 <div className="  col-2  espaco9 "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  " >
-<input name='masscap1' id='masscap1' type="number" onBlur={TeorUmidadeCalc1} className='input7' ></input>
+<input name='masscap1' id='masscap1' type="number" onBlur={TeorUmidadeCalc1} className='form-control input7' ></input>
 </div>
 <div className="  col-4  " >
-<input name='masscap2' id='masscap2' type="number" onBlur={TeorUmidadeCalc2} className='input7'></input>
+<input name='masscap2' id='masscap2' type="number" onBlur={TeorUmidadeCalc2} className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='masscap3' id='masscap3' type="number"  onBlur={TeorUmidadeCalc3 } className='input7'></input>
+<input name='masscap3' id='masscap3' type="number"  onBlur={TeorUmidadeCalc3 } className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -505,13 +505,13 @@ console.log(resul);
 <div className="  col-2  espaco8 "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  ">
-<input name='masscap4' id='masscap4' type="number" onBlur={TeorUmidadeCalc4} className='input7'></input>
+<input name='masscap4' id='masscap4' type="number" onBlur={TeorUmidadeCalc4} className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='masscap5' id='masscap5' type="number"  onBlur={TeorUmidadeCalc5} className='input7'></input>
+<input name='masscap5' id='masscap5' type="number"  onBlur={TeorUmidadeCalc5} className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='masscap6' id='masscap6' type="number" onBlur={TeorUmidadeCalc6} className='input7'></input>
+<input name='masscap6' id='masscap6' type="number" onBlur={TeorUmidadeCalc6} className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -539,13 +539,13 @@ console.log(resul);
 <div className="  col-2 espaco9  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  " >
-<input name='teorumd1' id='teorumd1' type="number" onBlur={TeorUmidadeMdCalc1} className='input7' ></input>
+<input name='teorumd1' id='teorumd1' type="number" onBlur={TeorUmidadeMdCalc1} className='form-control input7' ></input>
 </div>
 <div className="  col-4  " >
-<input name='teorumd2' id='teorumd2' type="number" onBlur={TeorUmidadeMdCalc1} className='input7'></input>
+<input name='teorumd2' id='teorumd2' type="number" onBlur={TeorUmidadeMdCalc1} className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='teorumd3' id='teorumd3' type="number" onBlur={TeorUmidadeMdCalc1} className='input7'></input>
+<input name='teorumd3' id='teorumd3' type="number" onBlur={TeorUmidadeMdCalc1} className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -553,13 +553,13 @@ console.log(resul);
 <div className="  col-2 espaco8  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  ">
-<input name='teorumd4' id='teorumd4' type="number" onBlur={TeorUmidadeMdCalc2} className='input7'></input>
+<input name='teorumd4' id='teorumd4' type="number" onBlur={TeorUmidadeMdCalc2} className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='teorumd5' id='teorumd5' type="number" onBlur={TeorUmidadeMdCalc2} className='input7'></input>
+<input name='teorumd5' id='teorumd5' type="number" onBlur={TeorUmidadeMdCalc2} className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='teorumd6' id='teorumd6' type="number" onBlur={TeorUmidadeMdCalc2} className='input7'></input>
+<input name='teorumd6' id='teorumd6' type="number" onBlur={TeorUmidadeMdCalc2} className='form-control input7'></input>
 </div>
 </div>
 </div>
@@ -583,10 +583,10 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11 ">
-<input name='teorumdMd1' id='teorumdMd1' type="number" className='input6' ></input>
+<input name='teorumdMd1' id='teorumdMd1' type="number" className='form-control input6' ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='teorumdMd2' id='teorumdMd2' type="number" className='input6' ></input>
+<input name='teorumdMd2' id='teorumdMd2' type="number" className='form-control input6' ></input>
 </div>
       
 </body>
@@ -609,10 +609,10 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11  ">
-<input name='masspicaguadt1' id='masspicaguadt1' type="number" className='input6' ></input>
+<input name='masspicaguadt1' id='masspicaguadt1' type="number" className='form-control input6' ></input>
 </div>
 <div className="  col-2 espaco8">
-<input name='masspicaguadt2' id='masspicaguadt2' type="number" className='input6' ></input>
+<input name='masspicaguadt2' id='masspicaguadt2' type="number" className='form-control input6' ></input>
 </div>
       
 </body>
@@ -635,10 +635,10 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11  ">
-<input name='masspicCP1' id='masspicCP1' type="number" className='input6' ></input>
+<input name='masspicCP1' id='masspicCP1' type="number" className='form-control input6' ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='masspicCP2' id='masspicCP2' type="number" className='input6' ></input>
+<input name='masspicCP2' id='masspicCP2' type="number" className='form-control input6' ></input>
 </div>
       
 </body>
@@ -661,10 +661,10 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11 ">
-<input name='TempEnsaio1' id='TempEnsaio1' type="number" className='input6' ></input>
+<input name='TempEnsaio1' id='TempEnsaio1' type="number" className='form-control input6' ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='TempEnsaio2' id='TempEnsaio2' type="number" className='input6' ></input>
+<input name='TempEnsaio2' id='TempEnsaio2' type="number" className='form-control input6' ></input>
 </div>
       
 </body>
@@ -687,10 +687,10 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11  ">
-<input name='MassEspAgaTempT1' id='MassEspAgaTempT1' type="number" onBlur={MassaEspCPCalc1} className='input6' ></input>
+<input name='MassEspAgaTempT1' id='MassEspAgaTempT1' type="number" onBlur={MassaEspCPCalc1} className='form-control input6' ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='MassEspAgaTempT2' id='MassEspAgaTempT2' type="number" onBlur={MassaEspCPCalc2} className='input6' ></input>
+<input name='MassEspAgaTempT2' id='MassEspAgaTempT2' type="number" onBlur={MassaEspCPCalc2} className='form-control input6' ></input>
 </div>
       
 </body>
@@ -712,10 +712,10 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11 ">
-<input name='massaespcppv1' id='massaespcppv1' type="number" onBlur={MassaEspMDCalc} className='input6' ></input>
+<input name='massaespcppv1' id='massaespcppv1' type="number" onBlur={MassaEspMDCalc} className='form-control input6' ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='massaespcppv2' id='massaespcppv2' type="number" onBlur={MassaEspMDCalc} className='input6' ></input>
+<input name='massaespcppv2' id='massaespcppv2' type="number" onBlur={MassaEspMDCalc} className='form-control input6' ></input>
 </div>
       
 </body>
@@ -738,7 +738,7 @@ console.log(resul);
 </div>
 
 <div className="  col-3 espaco11  ">
-<input name='massaespMd' id='massaespMd' type="number" className='input8' ></input>
+<input name='massaespMd' id='massaespMd' type="number" className='form-control input8' ></input>
 </div>
 
       
@@ -754,7 +754,8 @@ console.log(resul);
  <body className="  row   justify-content-evenly  " > 
 
 <div className="  col-4    ">
-<input className='input9' name='obs' id='obs' ></input>
+  <h5 className="  label  " >Observações</h5>
+<input className='form-control input9' name='obs' id='obs' ></input>
 </div>
 
 <div className="  col-auto  espaco12   ">
