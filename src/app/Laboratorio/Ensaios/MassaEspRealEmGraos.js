@@ -321,11 +321,11 @@ console.log(resul);
 <div className="  col-auto offset-1      ">
     <h5 >n°</h5>
     </div>
-    <div className="  col-2  espaco3   ">
+    <div className="  col-2  espaco3  ">
     <input name='ipicnometro1' id='ipicnometro1' type="number" className=" form-control  input6 "  ></input>
     </div>
     <div className="  col-2  espaco4     ">
-    <input name='ipicnometro2' id='ipicnometro2' type="number" className="  form-control input6 " ></input>
+    <input name='ipicnometro2' id='ipicnometro2' type="number" className=" form-control  input6 " ></input>
     </div>
 </body>
 
@@ -338,7 +338,7 @@ console.log(resul);
 <div className="  col-auto offset-1    ">
 <h5  > M¹  </h5>  
 </div>
-<div className="  col-2 espaco5   ">
+<div className="  col-2 espaco5  ">
 <input name='massumdcp1' id='massumdcp1' type="number" className=' form-control input6' ></input>
 </div>
 <div className="  col-2 espaco6  ">
@@ -379,7 +379,7 @@ console.log(resul);
 <input name='capsula5' id='capsula5' type="number" className='form-control input7'></input>
 </div>
 <div className="  col-4  ">
-<input name='capsula6' id='capsula6' type="number" className='form-control input7'></input>
+<input name='capsula6' id='capsula6' type="number" className=' form-control input7'></input>
 </div>
 </div>
 </div>
