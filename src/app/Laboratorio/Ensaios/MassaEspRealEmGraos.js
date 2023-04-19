@@ -20,6 +20,7 @@ function TeorUmidadeCalc1 (){
   var v11 =  v1.value;
   var v22 = v2.value;
   var v33 =  v3.value;
+
   var resul1 = (parseFloat(v11) - parseFloat(v22)) ;
   var resul2 = (parseFloat(v22) - parseFloat(v33)) ;
   var resul = (parseFloat(resul1)/parseFloat(resul2))*100
@@ -110,6 +111,8 @@ function TeorUmidadeCalc1 (){
             console.log(resul);
             }
 
+            //teor de umidade médio
+
             function TeorUmidadeMdCalc1 (){
 
               var v1 = document.querySelector("#teorumd1");
@@ -127,6 +130,44 @@ function TeorUmidadeCalc1 (){
               console.log(resul);
               }
 
+              function TeorUmidadeMdCalc1A (){
+
+                var v1 = document.querySelector("#teorumd1");
+               // var v2 = document.querySelector("#teorumd2");
+               // var v3 = document.querySelector("#teorumd3");
+                var v4 = document.querySelector("#teorumdMd1");
+  
+                var v11 =  v1.value;
+                //var v22 =  v2.value;
+                //var v33 =  v3.value;
+              
+                var resul = (parseFloat(v11))/1
+                
+                v4.value = resul.toFixed(1);
+                console.log(resul);
+                }
+
+                function TeorUmidadeMdCalc1B (){
+
+                  var v1 = document.querySelector("#teorumd1");
+                  var v2 = document.querySelector("#teorumd2");
+                 // var v3 = document.querySelector("#teorumd3");
+                  var v4 = document.querySelector("#teorumdMd1");
+    
+                  var v11 =  v1.value;
+                  var v22 =  v2.value;
+                  //var v33 =  v3.value;
+                
+                  var resul = (parseFloat(v11)+parseFloat(v22))/2
+                  
+                  v4.value = resul.toFixed(1);
+                  console.log(resul);
+                  }
+
+
+
+
+
               function TeorUmidadeMdCalc2 (){
 
                 var v1 = document.querySelector("#teorumd4");
@@ -142,6 +183,45 @@ function TeorUmidadeCalc1 (){
                 v4.value = resul.toFixed(1);
                 console.log(resul);
                 }
+
+                function TeorUmidadeMdCalc2A (){
+
+                  var v1 = document.querySelector("#teorumd4");
+                 // var v2 = document.querySelector("#teorumd5");
+                 // var v3 = document.querySelector("#teorumd6");
+                  var v4 = document.querySelector("#teorumdMd2");
+    
+                  var v11 =  v1.value;
+                  //var v22 =  v2.value;
+                  //var v33 =  v3.value;
+                
+                  var resul = (parseFloat(v11))/1
+                  
+                  v4.value = resul.toFixed(1);
+                  console.log(resul);
+                  }
+  
+                  function TeorUmidadeMdCalc2B (){
+  
+                    var v1 = document.querySelector("#teorumd4");
+                    var v2 = document.querySelector("#teorumd5");
+                   // var v3 = document.querySelector("#teorumd6");
+                    var v4 = document.querySelector("#teorumdMd2");
+      
+                    var v11 =  v1.value;
+                    var v22 =  v2.value;
+                    //var v33 =  v3.value;
+                  
+                    var resul = (parseFloat(v11)+parseFloat(v22))/2
+                    
+                    v4.value = resul.toFixed(1);
+                    console.log(resul);
+                    }
+
+
+
+
+
 
  function MassaEspCPCalc1 (){
 
@@ -187,6 +267,8 @@ console.log(resul);
   console.log(resul); 
    }
 
+   // massa especifica média
+
    function MassaEspMDCalc () {
 
     var aa91 = document.querySelector("#massaespcppv1");
@@ -201,7 +283,20 @@ console.log(resul);
 
     aaa.value = resul.toFixed(2);
     
-    console.log(resul);
+   }
+
+   function MassaEspMDCalcA () {
+
+    var aa91 = document.querySelector("#massaespcppv1");
+    //var aa92 = document.querySelector("#massaespcppv2");
+    var aaa = document.querySelector("#massaespMd");
+
+    var a1 = aa91.value;
+    //var a2 = aa92.value; 
+
+    var resul = parseFloat(a1) /1
+
+    aaa.value = resul.toFixed(2); 
    }
 
 
@@ -546,10 +641,10 @@ console.log(resul);
 <div className="  col-2 espaco9  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  " >
-<input name='teorumd1' id='teorumd1'  onBlur={TeorUmidadeMdCalc1} className='form-control  text-center input7' readonly="readonly" ></input>
+<input name='teorumd1' id='teorumd1'  onBlur={TeorUmidadeMdCalc1A} className='form-control  text-center input7' readonly="readonly" ></input>
 </div>
 <div className="  col-4  " >
-<input name='teorumd2' id='teorumd2'  onBlur={TeorUmidadeMdCalc1} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd2' id='teorumd2'  onBlur={TeorUmidadeMdCalc1B} className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 <div className="  col-4  ">
 <input name='teorumd3' id='teorumd3'  onBlur={TeorUmidadeMdCalc1} className='form-control  text-center input7' readonly="readonly"></input>
@@ -560,10 +655,10 @@ console.log(resul);
 <div className="  col-2 espaco8  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  ">
-<input name='teorumd4' id='teorumd4'  onBlur={TeorUmidadeMdCalc2} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd4' id='teorumd4' onBlur={TeorUmidadeMdCalc2A} className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 <div className="  col-4  ">
-<input name='teorumd5' id='teorumd5'  onBlur={TeorUmidadeMdCalc2} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd5' id='teorumd5'  onBlur={TeorUmidadeMdCalc2B} className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 <div className="  col-4  ">
 <input name='teorumd6' id='teorumd6'  onBlur={TeorUmidadeMdCalc2} className='form-control  text-center input7' readonly="readonly"></input>
@@ -719,7 +814,7 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11 ">
-<input name='massaespcppv1' id='massaespcppv1'  onBlur={MassaEspMDCalc} className='form-control text-center  input6' readonly="readonly" ></input>
+<input name='massaespcppv1' id='massaespcppv1'  onBlur={MassaEspMDCalcA} className='form-control text-center  input6' readonly="readonly" ></input>
 </div>
 <div className="  col-2 espaco8 ">
 <input name='massaespcppv2' id='massaespcppv2'  onBlur={MassaEspMDCalc} className='form-control  text-center input6' readonly="readonly" ></input>
