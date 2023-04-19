@@ -3,12 +3,12 @@ import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
 import React from 'react';
 
+
 function MassaEspRealEmGraos (){
 
+  //BANCO DE DADOS
 
 
-
-  
 
   //CÁLCULOS
 function TeorUmidadeCalc1 (){
