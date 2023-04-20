@@ -390,36 +390,35 @@ console.log(resul);
 
    // massa especifica média
 
-   function MassaEspMDCalc () {
+   function CalcularMassaEspMDCalc() { 
 
     var aa91 = document.querySelector("#massaespcppv1");
     var aa92 = document.querySelector("#massaespcppv2");
     var aaa = document.querySelector("#massaespMd");
 
-    var a1 = aa91.value;
-    var a2 = aa92.value; 
+    var a1  = aa91.value;
+    var a2 = aa92.value;  
+    
+   if (a1!=="" && a2!==""  ){ 
+    var resul1 = (parseFloat(a1) + parseFloat(a2)) ;
+    var resul = parseFloat(resul1) /2  ;
+    aaa.value = parseFloat(resul.toFixed(1));
 
-    var resul1 = (parseFloat(a1) + parseFloat(a2)) 
-    var resul = parseFloat(resul1) /2 
+    console.log( resul.toFixed(1))
+   }
+   else if (a1!=="" && a2==="" ) {      
+    var resul2 = parseFloat(a1) /1 ;
+    aaa.value = resul2.toFixed(1);
+  }
+  else if (a1==="" && a2!=="" ) {   
+   
+    var resul3 = parseFloat(a2) /1 ;
+    aaa.value = resul3.toFixed(1);
+  }
 
-    aaa.value = resul.toFixed(2);
+  else { aaa.value = ""}
     
    }
-
-   function MassaEspMDCalcA () {
-
-    var aa91 = document.querySelector("#massaespcppv1");
-    //var aa92 = document.querySelector("#massaespcppv2");
-    var aaa = document.querySelector("#massaespMd");
-
-    var a1 = aa91.value;
-    //var a2 = aa92.value; 
-
-    var resul = parseFloat(a1) /1
-
-    aaa.value = resul.toFixed(2); 
-   }
-
 
 
   return <body className=" align-items-center text-center form-container ">
@@ -935,10 +934,10 @@ console.log(resul);
 </div>
 
 <div className="  col-2 espaco11 ">
-<input name='massaespcppv1' id='massaespcppv1' onChangeText={setMassaespcppv1}  onBlur={MassaEspMDCalcA} className='form-control text-center  input6' readonly="readonly" ></input>
+<input name='massaespcppv1' id='massaespcppv1' onChangeText={setMassaespcppv1}  onBlur={CalcularMassaEspMDCalc} className='form-control text-center  input6' readonly="readonly" ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='massaespcppv2' id='massaespcppv2' onChangeText={setMassaespcppv2}  onBlur={MassaEspMDCalc} className='form-control  text-center input6' readonly="readonly" ></input>
+<input name='massaespcppv2' id='massaespcppv2' onChangeText={setMassaespcppv2}  onBlur={CalcularMassaEspMDCalc} className='form-control  text-center input6' readonly="readonly" ></input>
 </div>
       
 </body>
