@@ -21,6 +21,11 @@ function Laboratorio(props) {
       </button>
       <br/>
       <br/>
+      <button>
+      <a href="/app/testerealgraoteste" class="btnlogin"   > teste </a>
+      </button>
+      <br/>
+      <br/>
     
 
     </div>

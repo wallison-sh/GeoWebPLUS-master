@@ -23,6 +23,7 @@ import ProgramacaoIntacta from './app/Laboratorio/Progamacao/ProgamacaoIntacta/P
 import ProgramacaoCompactacao from './app/Laboratorio//Progamacao/ProgamacaoCompactacao/ProgramacaoICompactacao';
 import PDFProgramacao from './app/Laboratorio/Progamacao/PDFProgramacao/PDFProgramacao.jsx';
 import MassaEspRealEmGraos from   './app/Laboratorio/Ensaios/MassaEspRealEmGraos.js'
+import Teste from   './app/Laboratorio/Ensaios/teste.js'
 
 function App(){
     const {logado} = useContext(AuthContext);
@@ -60,6 +61,8 @@ function App(){
       <SecureRoute exact path='/app/editarcliente/:id' component={listadeterminiacaomassa } />
 
       <Route exact path='/app/realemgrao' component={MassaEspRealEmGraos } />
+
+      <Route exact path='/app/testerealgraoteste' component={Teste } />
       </Switch>
     </BrowserRouter>;
   }
