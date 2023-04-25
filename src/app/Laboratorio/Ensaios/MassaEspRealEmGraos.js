@@ -131,8 +131,8 @@ async function getItem() {
 
 
 
-  //CÁLCULOS
-function TeorUmidadeCalc1 (){
+ //CÁLCULOS
+ function TeorUmidadeCalc1 (){
 
   var v1 = document.querySelector("#massolumdEcap1");
   var v2 = document.querySelector("#massolsecoEcap1");
@@ -234,111 +234,110 @@ function TeorUmidadeCalc1 (){
 
             //teor de umidade médio
 
-            function TeorUmidadeMdCalc1 (){
-
+            function TeorUmdMediaCalc1 (){
               var v1 = document.querySelector("#teorumd1");
-              var v2 = document.querySelector("#teorumd2");
-              var v3 = document.querySelector("#teorumd3");
-              var v4 = document.querySelector("#teorumdMd1");
+             var v2 = document.querySelector("#teorumd2");
+             var v3 = document.querySelector("#teorumd3");
+             var v4 = document.querySelector("#teorumdMd1");
 
-              var v11 =  v1.value;
-              var v22 =  v2.value;
-              var v33 =  v3.value;
-            
-              var resul = (parseFloat(v11)+parseFloat(v22)+parseFloat(v33))/3
+             var v11 =  v1.value;
+             var v22 =  v2.value;
+             var v33 =  v3.value;
+
+              if (v11!=="" && v22!=="" && v33!=="" ){ 
+               var resul = (parseFloat(v11)+parseFloat(v22)+parseFloat(v33))/3
+             
+             v4.value = resul.toFixed(1);
+             console.log(resul);
+              }
+              else if (v11!=="" && v22!=="" && v33===""  ) {   
+  
+               var resul2 = parseFloat(v11) + parseFloat(v22) /2 ;
+               v4.value = resul2.toFixed(1);
+             }
+           
+             else if (v11!=="" && v22==="" && v33!=="" ) {   
               
-              v4.value = resul.toFixed(1);
-              console.log(resul);
+               var resul3 = parseFloat(v11) + parseFloat(v33) /2 ;
+               v4.value = resul3.toFixed(1);
+             }
+             else if (v11==="" && v22!=="" && v33!==""  ) {   
+  
+               var resul4 = parseFloat(v22) + parseFloat(v33) /2 ;
+               v4.value = resul4.toFixed(1);
+             }
+             else if (v11!=="" && v22==="" && v33===""  ) {   
+  
+               var resul5 = parseFloat(v11)  /1 ;
+               v4.value = resul5.toFixed(1);
+             }
+             else if (v11==="" && v22!=="" && v33===""  ) {   
+  
+               var resul6 = parseFloat(v22)  /1 ;
+               v4.value = resul6.toFixed(1);
+             }
+
+             else if (v11==="" && v22==="" && v33!==""  ) {   
+  
+               var resul7 = parseFloat(v33)  /1 ;
+               v4.value = resul7.toFixed(1);
+             }
+                     
+             else { v4.value = ""}              
               }
 
-              function TeorUmidadeMdCalc1A (){
 
-                var v1 = document.querySelector("#teorumd1");
-               // var v2 = document.querySelector("#teorumd2");
-               // var v3 = document.querySelector("#teorumd3");
-                var v4 = document.querySelector("#teorumdMd1");
-  
-                var v11 =  v1.value;
-                //var v22 =  v2.value;
-                //var v33 =  v3.value;
-              
-                var resul = (parseFloat(v11))/1
-                
-                v4.value = resul.toFixed(1);
-                console.log(resul);
-                }
-
-                function TeorUmidadeMdCalc1B (){
-
-                  var v1 = document.querySelector("#teorumd1");
-                  var v2 = document.querySelector("#teorumd2");
-                 // var v3 = document.querySelector("#teorumd3");
-                  var v4 = document.querySelector("#teorumdMd1");
-    
-                  var v11 =  v1.value;
-                  var v22 =  v2.value;
-                  //var v33 =  v3.value;
-                
-                  var resul = (parseFloat(v11)+parseFloat(v22))/2
-                  
-                  v4.value = resul.toFixed(1);
-                  console.log(resul);
-                  }
-
-
-
-
-
-              function TeorUmidadeMdCalc2 (){
-
+              function TeorUmdMediaCalc2 (){
                 var v1 = document.querySelector("#teorumd4");
-                var v2 = document.querySelector("#teorumd5");
-                var v3 = document.querySelector("#teorumd6");
-                var v4 = document.querySelector("#teorumdMd2");
+               var v2 = document.querySelector("#teorumd5");
+               var v3 = document.querySelector("#teorumd6");
+               var v4 = document.querySelector("#teorumdMd2");
   
-                var v11 =  v1.value;
-                var v22 =  v2.value;
-                var v33 =  v3.value;               
-                var resul = (parseFloat(v11)+parseFloat(v22)+parseFloat(v33))/3
-                
-                v4.value = resul.toFixed(1);
-                console.log(resul);
+               var v11 =  v1.value;
+               var v22 =  v2.value;
+               var v33 =  v3.value;
+  
+                if (v11!=="" && v22!=="" && v33!=="" ){ 
+                 var resul = (parseFloat(v11)+parseFloat(v22)+parseFloat(v33))/3
+               
+               v4.value = resul.toFixed(1);
+               console.log(resul);
                 }
-
-                function TeorUmidadeMdCalc2A (){
-
-                  var v1 = document.querySelector("#teorumd4");
-                 // var v2 = document.querySelector("#teorumd5");
-                 // var v3 = document.querySelector("#teorumd6");
-                  var v4 = document.querySelector("#teorumdMd2");
+                else if (v11!=="" && v22!=="" && v33===""  ) {   
     
-                  var v11 =  v1.value;
-                  //var v22 =  v2.value;
-                  //var v33 =  v3.value;
+                 var resul2 = parseFloat(v11) + parseFloat(v22) /2 ;
+                 v4.value = resul2.toFixed(1);
+               }
+             
+               else if (v11!=="" && v22==="" && v33!=="" ) {   
                 
-                  var resul = (parseFloat(v11))/1
-                  
-                  v4.value = resul.toFixed(1);
-                  console.log(resul);
-                  }
+                 var resul3 = parseFloat(v11) + parseFloat(v33) /2 ;
+                 v4.value = resul3.toFixed(1);
+               }
+               else if (v11==="" && v22!=="" && v33!==""  ) {   
+    
+                 var resul4 = parseFloat(v22) + parseFloat(v33) /2 ;
+                 v4.value = resul4.toFixed(1);
+               }
+               else if (v11!=="" && v22==="" && v33===""  ) {   
+    
+                 var resul5 = parseFloat(v11)  /1 ;
+                 v4.value = resul5.toFixed(1);
+               }
+               else if (v11==="" && v22!=="" && v33===""  ) {   
+    
+                 var resul6 = parseFloat(v22)  /1 ;
+                 v4.value = resul6.toFixed(1);
+               }
   
-                  function TeorUmidadeMdCalc2B (){
-  
-                    var v1 = document.querySelector("#teorumd4");
-                    var v2 = document.querySelector("#teorumd5");
-                   // var v3 = document.querySelector("#teorumd6");
-                    var v4 = document.querySelector("#teorumdMd2");
-      
-                    var v11 =  v1.value;
-                    var v22 =  v2.value;
-                    //var v33 =  v3.value;
-                  
-                    var resul = (parseFloat(v11)+parseFloat(v22))/2
-                    
-                    v4.value = resul.toFixed(1);
-                    console.log(resul);
-                    }
-
+               else if (v11==="" && v22==="" && v33!==""  ) {   
+    
+                 var resul7 = parseFloat(v33)  /1 ;
+                 v4.value = resul7.toFixed(1);
+               }
+                       
+               else { v4.value = ""}              
+                }
 
 
 
@@ -402,18 +401,18 @@ console.log(resul);
    if (a1!=="" && a2!==""  ){ 
     var resul1 = (parseFloat(a1) + parseFloat(a2)) ;
     var resul = parseFloat(resul1) /2  ;
-    aaa.value = parseFloat(resul.toFixed(1));
+    aaa.value = parseFloat(resul.toFixed(2));
 
-    console.log( resul.toFixed(1))
+    console.log( resul.toFixed(2))
    }
    else if (a1!=="" && a2==="" ) {      
     var resul2 = parseFloat(a1) /1 ;
-    aaa.value = resul2.toFixed(1);
+    aaa.value = resul2.toFixed(2);
   }
   else if (a1==="" && a2!=="" ) {   
    
     var resul3 = parseFloat(a2) /1 ;
-    aaa.value = resul3.toFixed(1);
+    aaa.value = resul3.toFixed(2);
   }
 
   else { aaa.value = ""}
@@ -761,13 +760,13 @@ console.log(resul);
 <div className="  col-2 espaco9  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  " >
-<input name='teorumd1' id='teorumd1' onChangeText={setTeorumd1}  onBlur={TeorUmidadeMdCalc1A} className='form-control  text-center input7' readonly="readonly" ></input>
+<input name='teorumd1' id='teorumd1' onChangeText={setTeorumd1}   className='form-control  text-center input7' readonly="readonly" ></input>
 </div>
 <div className="  col-4  " >
-<input name='teorumd2' id='teorumd2' onChangeText={setTeorumd2}  onBlur={TeorUmidadeMdCalc1B} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd2' id='teorumd2' onChangeText={setTeorumd2}   className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 <div className="  col-4  ">
-<input name='teorumd3' id='teorumd3' onChangeText={setTeorumd3}  onBlur={TeorUmidadeMdCalc1} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd3' id='teorumd3' onChangeText={setTeorumd3}   className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 </div>
 </div>
@@ -775,13 +774,13 @@ console.log(resul);
 <div className="  col-2 espaco8  "> 
 <div className="  row  align-items-center ">
 <div className="  col-4  ">
-<input name='teorumd4' id='teorumd4' onChangeText={setTeorumd4}  onBlur={TeorUmidadeMdCalc2A} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd4' id='teorumd4' onChangeText={setTeorumd4}   className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 <div className="  col-4  ">
-<input name='teorumd5' id='teorumd5' onChangeText={setTeorumd5}  onBlur={TeorUmidadeMdCalc2B} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd5' id='teorumd5' onChangeText={setTeorumd5}   className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 <div className="  col-4  ">
-<input name='teorumd6' id='teorumd6' onChangeText={setTeorumd6}  onBlur={TeorUmidadeMdCalc2} className='form-control  text-center input7' readonly="readonly"></input>
+<input name='teorumd6' id='teorumd6' onChangeText={setTeorumd6}   className='form-control  text-center input7' readonly="readonly"></input>
 </div>
 </div>
 </div>
@@ -937,7 +936,16 @@ console.log(resul);
 <input name='massaespcppv1' id='massaespcppv1' onChangeText={setMassaespcppv1}  onBlur={CalcularMassaEspMDCalc} className='form-control text-center  input6' readonly="readonly" ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='massaespcppv2' id='massaespcppv2' onChangeText={setMassaespcppv2}  onBlur={CalcularMassaEspMDCalc} className='form-control  text-center input6' readonly="readonly" ></input>
+<input name='massaespcppv2' id='massaespcppv2' onChangeText={setMassaespcppv2}  onBlur={CalcularMassaEspMDCalc && TeorUmidadeCalc1 &&
+TeorUmidadeCalc2 &&
+TeorUmidadeCalc3 &&
+TeorUmidadeCalc4 &&
+TeorUmidadeCalc5 &&
+TeorUmidadeCalc6 &&
+TeorUmdMediaCalc1 &&
+TeorUmdMediaCalc2 &&
+MassaEspCPCalc1 &&
+MassaEspCPCalc2 } className='form-control  text-center input6' readonly="readonly" ></input>
 </div>
       
 </body>

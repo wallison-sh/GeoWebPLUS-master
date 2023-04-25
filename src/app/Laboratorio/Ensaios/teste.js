@@ -1,7 +1,7 @@
 
 import Navbar from '../NavbarLaboratorio/navbarlaboratorio';
 import  './MassaEspRealGraos.css';
-import React from "react";
+import React, {  useEffect, useState } from "react";
 
 
 
@@ -11,67 +11,10 @@ function Teste (){
 
 
 
-  // looping de calculo
-                
-  /* var aa91 = document.querySelector("#massaespcppv1");
-  var aa92 = document.querySelector("#massaespcppv2");
-  var aaa = document.querySelector("#massaespMd"); */
-
-  //var a1 = aa91.value;
-  //var a2 = aa92.value; 
 
 
 
-//   function calcularMd (){
-// if (  aa91 === "" && aa92 === ""   ){
-//     aaa.value = ""}
-
-//     else if (aa91 !== "" && aa92 !== "" ){MassaEspMDCalc()}
-//     else if (aa91 !== "" && aa92 === "" ){MassaEspMDCalcA()}
-
-
-// }
-
-
-
-
-
-  //CÁLCULOS
-
-   // massa especifica média
-
-/*      function MassaEspMDCalc () {
-
-    var aa91 = document.querySelector("#massaespcppv1");
-    var aa92 = document.querySelector("#massaespcppv2");
-    var aaa = document.querySelector("#massaespMd");
-
-    var a1 = aa91.value;
-    var a2 = aa92.value; 
-
-    var resul1 = (parseFloat(a1) + parseFloat(a2)) 
-    var resul = parseFloat(resul1) /2 
-
-    aaa.value = resul.toFixed(2);
-    
-   }
-
-   function MassaEspMDCalcA () {
-
-    var aa91 = document.querySelector("#massaespcppv1");
-    //var aa92 = document.querySelector("#massaespcppv2");
-    var aaa = document.querySelector("#massaespMd");
-
-    var a1 = aa91.value;
-    //var a2 = aa92.value; 
-
-    var resul = parseFloat(a1) /1
-
-    aaa.value = resul.toFixed(2); 
-   }
-
- */
-
+  
 
    function CalcularMassaEspMDCalc() { 
 
@@ -107,12 +50,19 @@ function Teste (){
 
   else { aaa.value = ""}
     
-   }
+   };
+
+
+
+
+   
+
+    
 
  
 
 
-  return <body className=" align-items-center text-center form-container ">
+  return <body className=" align-items-center text-center form-container "  >
     
 
     
@@ -166,48 +116,7 @@ function Teste (){
 
    <body className="  col   align-items-center   justify-content-evenly  ">  
 
-   <body  className="  gap-5 row  align-items-center p-1   ">
-<div className="  col-5 label  offset-md-4 ">
-<h5  >Corpo de prova</h5>
-</div>
-
-<div className="  col-auto espaco1   ">
-<h5  >I</h5>
-</div>
-<div className=" col-auto espaco2  ">
-<h5 >II</h5>
-</div>
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 
 
@@ -230,10 +139,10 @@ function Teste (){
 </div>
 
 <div className="  col-2 espaco11 ">
-<input name='massaespcppv1' id='massaespcppv1' className='form-control text-center  input6' onBlur={CalcularMassaEspMDCalc} ></input>
+<input name='massaespcppv1' id='massaespcppv1' className='form-control text-center  input6'  ></input>
 </div>
 <div className="  col-2 espaco8 ">
-<input name='massaespcppv2' id='massaespcppv2'  className='form-control  text-center input6' onBlur={CalcularMassaEspMDCalc} ></input>
+<input name='massaespcppv2' id='massaespcppv2'  className='form-control  text-center input6'  ></input>
 </div>
       
 </body>
@@ -256,7 +165,7 @@ function Teste (){
 </div>
 
 <div className="  col-3 espaco11  ">
-<input name='massaespMd' id='massaespMd'   className='form-control text-center  input8' readonly="readonly" ></input>
+<input name='massaespMd' id='massaespMd'   className='form-control text-center  input8' readonly="readonly" onClick={CalcularMassaEspMDCalc} ></input>
 </div>
 
       
